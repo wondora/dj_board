@@ -1,0 +1,137 @@
+{% extends 'freeboard/base.html' %}
+
+{% block title %}게시글 목록{% endblock %}
+
+{% block navbar_actions %}
+    {# 로그아웃 버튼이 base.html로 이동했으므로 이 블록은 비워둡니다. #}
+{% endblock %}
+
+{% block above_content_card_actions %}
+    <a href="{% url 'freeboard:post_create' %}" class="btn btn-primary">새 글 작성</a>
+{% endblock %}
+
+{% block content %}
+<style>
+    /* General table styling */
+    .post-table {
+        width: 100%;
+        border-collapse: separate; /* Use separate for border-spacing */
+        border-spacing: 0 8px; /* Vertical space between rows */
+        margin-top: 20px;
+    }
+    .post-table th,
+    .post-table td {
+        padding: 15px 20px; /* Increased padding for more breathing room */
+        text-align: left;
+        font-size: 15px;
+    }
+    .post-table th {
+        background-color: #f0f2f5; /* Lighter header background */
+        font-weight: 600;
+        color: #555;
+        border-bottom: none; /* Remove default border */
+        text-transform: uppercase; /* Uppercase for headers */
+        letter-spacing: 0.5px;
+    }
+    .post-table thead tr {
+        border-radius: 8px; /* Rounded corners for header row */
+        overflow: hidden;
+    }
+    .post-table tbody tr {
+        background-color: var(--white-color);
+        border-radius: 8px; /* Rounded corners for rows */
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04); /* Subtle shadow for depth */
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth transition */
+    }
+    .post-table tbody tr:hover {
+        transform: translateY(-3px); /* Lift effect on hover */
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1); /* Enhanced shadow on hover */
+    }
+    .post-table td {
+        border-bottom: none; /* Remove default border */
+    }
+    .post-table tbody tr:not(:last-child) td {
+        /* No border between rows, spacing handles separation */
+    }
+
+    .post-title a {
+        text-decoration: none;
+        color: var(--text-color);
+        font-weight: 500;
+        font-size: 16px; /* Slightly larger title font */
+    }
+    .post-title a:hover {
+        text-decoration: underline;
+        color: var(--primary-color); /* Highlight on hover */
+    }
+    .text-center { text-align: center; }
+    .page-header {
+        margin-bottom: 20px;
+    }
+
+    /* Category buttons styling */
+    .category-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 20px;
+    }
+    .category-button {
+        display: inline-block;
+        padding: 6px 12px;
+        border: 1px solid #e0e0e0; /* Lighter border for default */
+        border-radius: 16px;
+        text-decoration: none;
+        color: #666; /* Softer text color */
+        background-color: #f8f8f8; /* Lighter background for default */
+        transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .category-button:hover {
+        background-color: #e9ecef;
+        border-color: #c0c0c0;
+        color: #333;
+    }
+    .category-button.active {
+        background-color: #6c757d; /* Modern gray color */
+        color: var(--white-color);
+        border-color: #6c757d;
+    }
+</style>
+
+<div class="page-header">
+    <div class="category-buttons">
+        <a href="{% url 'freeboard:post_list' %}" class="category-button {% if not current_category %}active{% endif %}">전체</a>
+        {% for category in categories %}
+        <a href="{% url 'freeboard:post_list' %}?category={{ category.slug }}" class="category-button {% if current_category.slug == category.slug %}active{% endif %}">{{ category.name }}</a>
+        {% endfor %}
+    </div>
+</div>
+
+<table class="post-table">
+    <thead>
+        <tr>
+            <th style="width: 10%;">번호</th>
+            <th style="width: 50%;">제목</th>
+            <th style="width: 15%;">카테고리</th>
+            <th style="width: 15%;">작성일</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for post in posts %}
+        <tr>
+            <td class="text-center">{{ post.pk }}</td>
+	    <td class="post-title"><a href="{% url 'freeboard:post_detail' post.pk %}">{{ post.title }}</a>{% if post.file %} <span title="첨부파일 있음">&nbsp;&nbsp;&#x1F4BE;</span>{% endif %}</td>
+            <td>{{ post.category.name }}</td>
+            <td class="text-center">{{ post.created_at|date:"Y.m.d" }}</td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="4" class="text-center" style="padding: 50px;">게시글이 없습니다.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

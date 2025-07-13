@@ -1,0 +1,148 @@
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/wondora/js_board.git
+git push -u origin main
+
+----------------
+
+배포 서버에 압축을 풀고 아래 명령어로 이미지 생성하고 컨테이너 만들면 된다.
+nginx, mariadb는 호스트 os에 설치된 걸로 사용했다. 따로 도커로 포함시켜도 된다.
+1. docker builder prune -af 캐시 및 찌거기 삭제
+2. docker compose build u--no-cache
+3. docker compose up -d
+
+버그가 생기면 .env에서 debug = True 변경하고 에러 내용을 보면된다.
+
+
+py파일들을 수정하면 makemigrations 할 필요없다.
+templates/0001.initial 이 db 설계도 이다. 다시 설계하고 싶으면 삭제해도 된다.
+
+주로 cursor AI로 테스트하고 버그을 잡았다.
+
+--------------
+
+
+디버깅하면서 사용한 명명령어들
+
+docker-compose exec django_app python manage.py createsuperuser 
+docker-compose exec django_app bash 1. docker compose build --no-cache 
+docker compose build --no-cache --progress=plain (진행과정이 자세하게 나온다.) 
+
+컨테이너 다시 시작: 새로 빌드된 이미지를 사용하여 컨테이너를 시작합니다.
+docker compose up -d
+
+마이그레이션 다시 시도: 컨테이너가 시작된 후, 다시 마이그레이션을 생성하고 적용합니다. 
+docker compose exec django_app python manage.py makemigrations board 
+docker compose exec django_app python manage.py migrate
+docker compose exec django_app pip freeze 컨테이너내 라이브러리 설치 확인
+docker compose exec django_app bash > cat /app/templates/board/post_detail.html
+
+---------------------------
+
+
+✅ 속도 향상을 위한 Docker Compose 기반 설정 팁
+1. Gunicorn 옵션 튜닝 (Dockerfile 또는 entrypoint에서)
+Dockerfile 또는 docker-compose.yml에서 gunicorn 실행 명령을 아래처럼 설정하세요:
+
+command: >
+  gunicorn yourproject.wsgi:application
+  --workers=4
+  --worker-class=gevent
+  --bind=0.0.0.0:8000
+  --timeout=60
+  
+2. Nginx도 Docker로 운영 중이라면? 정적 파일 직접 서빙
+Nginx 컨테이너 설정에서 /static/을 아래처럼 서빙:
+
+nginx
+복사
+편집
+location /static/ {
+    alias /app/static/;
+    expires 30d;
+    add_header Cache-Control "public";
+}
+
+--------------------------------------
+
+  
+  
+✅ 1. Gunicorn: Worker 튜닝 외에도
+workers = 4 설정은 CPU 코어 수 기준으로 적절합니다.
+👉 권장값: workers = (2 * CPU코어 수) + 1
+
+worker class 변경도 중요합니다:
+
+gunicorn --worker-class gevent --workers 4 yourproject.wsgi:application
+worker class	특징
+sync (기본값)	단순하지만 동시에 많은 요청 시 병목
+gevent	비동기, WebSocket·IO 많은 앱에 유리
+uvicorn.workers.UvicornWorker	ASGI 앱에 최적 (FastAPI, Django+Channels 등)
+
+✅ 2. Nginx 최적화
+Nginx는 정적 파일, 캐싱, 압축에 관여하므로 성능에 큰 영향을 줍니다.
+
+✅ 정적 파일은 Nginx가 직접 처리하도록 설정
+
+location /static/ {
+    alias /home/ubuntu/yourproject/static/;
+    expires 30d;
+    add_header Cache-Control "public";
+}
+👉 Django가 아닌 Nginx가 CSS, JS, 이미지 등을 직접 처리하게 되어 속도 향상
+
+✅ gzip 압축 활성화
+
+gzip on;
+gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
+👉 JS/CSS/HTML 등을 전송할 때 압축해서 트래픽과 로딩 시간 절감
+
+✅ 3. Django 자체 튜닝
+✅ DEBUG = False
+
+# settings.py
+DEBUG = False
+개발용 DEBUG=True는 모든 템플릿 및 쿼리를 매 요청마다 다시 읽음
+
+반드시 ALLOWED_HOSTS도 설정해야 함
+
+✅ Database Index 확인
+게시판처럼 조회가 많은 경우 created_at, category_id 등에 index=True 설정
+
+쿼리 속도를 10~100배 향상시킬 수 있음
+
+✅ 4. 캐싱 도입 (간단한 메모리 캐시)
+게시글 목록 같이 자주 바뀌지 않는 데이터는 1~5분 캐시로도 큰 효과
+
+설정 (settings.py):
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+    }
+}
+뷰에 적용:
+
+from django.views.decorators.cache import cache_page
+
+@cache_page(60 * 2)  # 2분
+def post_list(request):
+    ...
+✅ 5. 정적 파일 미리 수집
+
+python manage.py collectstatic
+정적 파일을 매번 처리하지 않고 Nginx가 고정 경로에서 서빙 가능
+
+✅ 보너스: systemd 자동 재시작 설정 (속도는 아니지만 안정성↑)
+
+# /etc/systemd/system/gunicorn.service
+Restart=always
+🔚 요약: 지금 바로 적용 가능한 5가지 빠른 방법
+번호	항목	설명
+1	Gunicorn --worker-class gevent	비동기 처리 향상
+2	Nginx에서 정적 파일 직접 서빙	Django 부하 감소
+3	Nginx gzip 압축 활성화	응답 속도 증가
+4	Django DEBUG=False + index 튜닝	내부 처리 개선
+5	@cache_page 데코레이터 사용	뷰 캐싱으로 병목 해소  

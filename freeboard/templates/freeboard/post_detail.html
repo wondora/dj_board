@@ -1,0 +1,75 @@
+{% extends 'freeboard/base.html' %}
+
+{% block title %}{{ post.title }}{% endblock %}
+
+{% block content %}
+<style>
+    .post-header {
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid var(--border-color);
+    }
+    .post-header h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .post-meta {
+        font-size: 14px;
+        color: var(--light-text-color);
+    }
+    .post-content {
+        line-height: 1.7;
+        font-size: 16px;
+        margin-bottom: 40px;
+        /* Summernote content might need specific styling if it's not rendering correctly */
+    }
+    .post-actions {
+        text-align: right;
+    }
+    .post-file a {
+        color: var(--primary-color);
+        text-decoration: none;
+    }
+    .post-file a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<div class="post-container">
+    <div class="post-header">
+        <h1>{{ post.title }}</h1>
+        <div class="post-meta">
+            <span>카테고리: {{ post.category.name }}</span> | 
+            <span>작성일: {{ post.created_at|date:"Y.m.d H:i" }}</span>
+        </div>
+    </div>
+
+    {% if post.file %}
+    <div class="post-file">
+        <p><strong>첨부파일:</strong> <a href="{{ post.file.url }}" download>{{ post.file_basename }} ({{ post.file_size_display }})</a></p>
+    </div>
+    {% endif %}
+
+    <div class="post-content">
+        {{ post.content|safe }}
+    </div>
+
+    <div class="post-actions">
+        <a href="{% url 'freeboard:post_list' %}" class="btn btn-secondary">목록</a>
+        <a href="{% url 'freeboard:post_edit' post.pk %}" class="btn btn-primary">수정</a>
+        <a href="{% url 'freeboard:post_delete' post.pk %}" class="btn btn-danger">삭제</a>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var images = document.querySelectorAll('.post-content img');
+        images.forEach(function(img) {
+            img.addEventListener('click', function() {
+                window.open(this.src, '_blank');
+            });
+        });
+    });
+</script>
+
+{% endblock %}

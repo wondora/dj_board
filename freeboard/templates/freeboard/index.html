@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fractal Tree Animation</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="fractal-tree"></canvas>
+    <script>
+        const canvas = document.getElementById('fractal-tree');
+        const ctx = canvas.getContext('2d');
+
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        function drawTree(x1, y1, angle, depth, branchWidth) {
+            if (depth === 0) return;
+
+            const x2 = x1 + (Math.cos(angle * Math.PI / 180) * depth * 10);
+            const y2 = y1 + (Math.sin(angle * Math.PI / 180) * depth * 10);
+
+            ctx.beginPath();
+            ctx.moveTo(x1, y1);
+            ctx.lineTo(x2, y2);
+            ctx.strokeStyle = 'white';
+            ctx.lineWidth = branchWidth;
+            ctx.stroke();
+
+            setTimeout(() => {
+                drawTree(x2, y2, angle - 20, depth - 1, branchWidth * 0.8);
+                drawTree(x2, y2, angle + 20, depth - 1, branchWidth * 0.8);
+            }, 500);
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            drawTree(canvas.width / 2, canvas.height, -90, 10, 10);
+        }
+
+        animate();
+        setInterval(animate, 10000);
+
+        // SHIFT + i 단축키로 로그인 페이지 이동
+        document.addEventListener('keydown', function(event) {
+            if (event.shiftKey && event.key.toLowerCase() === 'i') {
+                window.location.href = "{% url 'login' %}"; // Django 로그인 URL
+            }
+        });
+    </script>
+</body>
+</html>

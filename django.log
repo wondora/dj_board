@@ -1,0 +1,1558 @@
+WARNING 2025-07-11 01:15:07,085 log 11 139793339529024 Not Found: /favicon.ico
+INFO 2025-07-11 01:15:24,819 views 11 139793339529024 POST 요청 수신 - pk: 16, FILES: ['file']
+INFO 2025-07-11 01:15:24,819 views 11 139793339529024 POST 데이터: ['csrfmiddlewaretoken', 'category', 'title', 'content']
+INFO 2025-07-11 01:15:24,825 views 11 139793339529024 폼 검증 성공
+INFO 2025-07-11 01:15:24,825 views 11 139793339529024 새 파일 업로드 감지: Office Install v7.7.7.5.zip.torrent.torrent, 크기: 7401
+INFO 2025-07-11 01:15:24,825 views 11 139793339529024 기존 파일 삭제 성공
+INFO 2025-07-11 01:15:24,825 views 11 139793339529024 새 파일 설정 완료
+ERROR 2025-07-11 01:15:24,827 views 11 139793339529024 게시글 저장 중 오류: I/O operation on closed file.
+ERROR 2025-07-11 01:15:24,828 log 11 139793339529024 Internal Server Error: /board/post/16/edit/
+INFO 2025-07-11 01:15:53,996 views 10 139793339529024 POST 요청 수신 - pk: 16, FILES: ['file']
+INFO 2025-07-11 01:15:53,996 views 10 139793339529024 POST 데이터: ['csrfmiddlewaretoken', 'category', 'title', 'content']
+INFO 2025-07-11 01:15:53,998 views 10 139793339529024 폼 검증 성공
+INFO 2025-07-11 01:15:53,999 views 10 139793339529024 새 파일 업로드 감지: Office Install v7.7.7.5.zip.torrent.torrent, 크기: 7401
+INFO 2025-07-11 01:15:53,999 views 10 139793339529024 기존 파일 삭제 성공
+INFO 2025-07-11 01:15:53,999 views 10 139793339529024 새 파일 설정 완료
+ERROR 2025-07-11 01:15:54,000 views 10 139793339529024 게시글 저장 중 오류: I/O operation on closed file.
+ERROR 2025-07-11 01:15:54,002 log 10 139793339529024 Internal Server Error: /board/post/16/edit/
+INFO 2025-07-11 01:21:57,413 views 9 140075652773696 POST 요청 수신 - pk: 18, FILES: ['file']
+INFO 2025-07-11 01:21:57,415 views 9 140075652773696 POST 데이터: ['csrfmiddlewaretoken', 'category', 'title', 'content', 'file-clear']
+INFO 2025-07-11 01:21:57,418 views 9 140075652773696 폼 검증 성공
+INFO 2025-07-11 01:21:57,418 views 9 140075652773696 새 파일 업로드 감지: nos_setup.exe, 크기: 28958088
+INFO 2025-07-11 01:21:57,418 views 9 140075652773696 새 파일 설정 완료
+INFO 2025-07-11 01:21:57,708 views 9 140075652773696 게시글 저장 성공
+INFO 2025-07-11 01:21:57,708 views 9 140075652773696 AJAX 요청에 대한 JSON 응답 반환
+WARNING 2025-07-11 01:46:20,152 log 10 140047325730624 Not Found: /favicon.ico
+INFO 2025-07-11 01:47:14,346 views 10 140047325730624 POST 요청 수신 - pk: 18, FILES: ['file']
+INFO 2025-07-11 01:47:14,346 views 10 140047325730624 POST 데이터: ['csrfmiddlewaretoken', 'category', 'title', 'content', 'file-clear']
+INFO 2025-07-11 01:47:14,349 views 10 140047325730624 폼 검증 성공
+INFO 2025-07-11 01:47:14,350 views 10 140047325730624 파일 삭제 체크박스가 체크됨
+INFO 2025-07-11 01:47:14,350 views 10 140047325730624 새 파일 업로드 감지: Setup.exe, 크기: 485232
+INFO 2025-07-11 01:47:14,350 views 10 140047325730624 새 파일 설정 완료
+INFO 2025-07-11 01:47:14,366 views 10 140047325730624 게시글 저장 성공
+INFO 2025-07-11 01:47:14,366 views 10 140047325730624 AJAX 요청에 대한 JSON 응답 반환
+INFO 2025-07-11 01:47:49,844 views 11 140047325730624 POST 요청 수신 - pk: 18, FILES: ['file']
+INFO 2025-07-11 01:47:49,844 views 11 140047325730624 POST 데이터: ['csrfmiddlewaretoken', 'category', 'title', 'content', 'file-clear']
+INFO 2025-07-11 01:47:49,847 views 11 140047325730624 폼 검증 성공
+INFO 2025-07-11 01:47:49,847 views 11 140047325730624 파일 삭제 체크박스가 체크됨
+INFO 2025-07-11 01:47:49,847 views 11 140047325730624 새 파일 업로드 감지: 190408.hwp, 크기: 14336
+INFO 2025-07-11 01:47:49,847 views 11 140047325730624 새 파일 설정 완료
+INFO 2025-07-11 01:47:49,853 views 11 140047325730624 게시글 저장 성공
+INFO 2025-07-11 01:47:49,853 views 11 140047325730624 AJAX 요청에 대한 JSON 응답 반환
+INFO 2025-07-11 01:53:50,709 views 11 140168755341120 POST 요청 수신 - pk: 18, FILES: ['file']
+INFO 2025-07-11 01:53:50,712 views 11 140168755341120 POST 데이터: ['csrfmiddlewaretoken', 'category', 'title', 'content', 'file-clear']
+INFO 2025-07-11 01:53:50,717 views 11 140168755341120 폼 검증 성공
+INFO 2025-07-11 01:53:50,717 views 11 140168755341120 파일 삭제 체크박스가 체크됨
+INFO 2025-07-11 01:53:50,717 views 11 140168755341120 현재 post.file 상태: nos_setup.exe
+INFO 2025-07-11 01:53:50,717 views 11 140168755341120 삭제할 파일 정보: nos_setup.exe, 경로: /app/media/nos_setup.exe
+INFO 2025-07-11 01:53:50,722 models 11 140168755341120 파일 삭제 성공: None
+INFO 2025-07-11 01:53:50,722 views 11 140168755341120 delete_file 메서드로 파일 삭제 성공
+INFO 2025-07-11 01:53:50,722 views 11 140168755341120 파일 필드를 None으로 설정
+INFO 2025-07-11 01:53:50,723 views 11 140168755341120 새 파일 업로드 감지: nos_setup.exe, 크기: 28958088
+INFO 2025-07-11 01:53:50,723 views 11 140168755341120 새 파일 설정 완료
+INFO 2025-07-11 01:53:50,723 views 11 140168755341120 저장 전 post.file 상태: nos_setup.exe
+ERROR 2025-07-11 01:53:50,724 views 11 140168755341120 파일 처리 중 오류: I/O operation on closed file.
+ERROR 2025-07-11 01:53:50,725 log 11 140168755341120 Internal Server Error: /board/post/18/edit/
+WARNING 2025-07-11 02:08:57,394 log 12 140355105122112 Not Found: /favicon.ico
+INFO 2025-07-11 02:12:48,320 views 9 140355105122112 POST 요청 수신 - pk: 18, FILES: ['file']
+INFO 2025-07-11 02:12:48,321 views 9 140355105122112 POST 데이터: ['csrfmiddlewaretoken', 'category', 'title', 'content', 'file-clear']
+INFO 2025-07-11 02:12:48,323 views 9 140355105122112 폼 검증 성공
+INFO 2025-07-11 02:12:48,324 views 9 140355105122112 파일 삭제 체크박스가 체크됨
+INFO 2025-07-11 02:12:48,324 views 9 140355105122112 현재 post.file 상태: nos_setup.exe
+INFO 2025-07-11 02:12:48,324 views 9 140355105122112 삭제할 파일 정보: nos_setup.exe, 경로: /app/media/nos_setup.exe
+INFO 2025-07-11 02:12:48,328 models 9 140355105122112 파일 삭제 성공: None
+INFO 2025-07-11 02:12:48,328 views 9 140355105122112 delete_file 메서드로 파일 삭제 성공
+INFO 2025-07-11 02:12:48,329 views 9 140355105122112 파일 필드를 None으로 설정
+INFO 2025-07-11 02:12:48,329 views 9 140355105122112 새 파일 업로드 감지: nos_setup.exe, 크기: 28958088
+INFO 2025-07-11 02:12:48,329 views 9 140355105122112 새 파일 설정 완료
+INFO 2025-07-11 02:12:48,329 views 9 140355105122112 저장 전 post.file 상태: nos_setup.exe
+ERROR 2025-07-11 02:12:48,334 views 9 140355105122112 파일 처리 중 오류: I/O operation on closed file.
+ERROR 2025-07-11 02:12:48,335 log 9 140355105122112 Internal Server Error: /board/post/18/edit/
+INFO 2025-07-11 02:13:59,212 views 11 140355105122112 POST 요청 수신 - pk: 18, FILES: ['file']
+INFO 2025-07-11 02:13:59,212 views 11 140355105122112 POST 데이터: ['csrfmiddlewaretoken', 'category', 'title', 'content', 'file-clear']
+INFO 2025-07-11 02:13:59,218 views 11 140355105122112 폼 검증 성공
+INFO 2025-07-11 02:13:59,219 views 11 140355105122112 파일 삭제 체크박스가 체크됨
+INFO 2025-07-11 02:13:59,219 views 11 140355105122112 현재 post.file 상태: nos_setup.exe
+INFO 2025-07-11 02:13:59,219 views 11 140355105122112 삭제할 파일 정보: nos_setup.exe, 경로: /app/media/nos_setup.exe
+INFO 2025-07-11 02:13:59,223 models 11 140355105122112 파일 삭제 성공: None
+INFO 2025-07-11 02:13:59,224 views 11 140355105122112 delete_file 메서드로 파일 삭제 성공
+INFO 2025-07-11 02:13:59,224 views 11 140355105122112 파일 필드를 None으로 설정
+INFO 2025-07-11 02:13:59,224 views 11 140355105122112 새 파일 업로드 감지: nos_setup.exe, 크기: 28958088
+INFO 2025-07-11 02:13:59,224 views 11 140355105122112 새 파일 설정 완료
+INFO 2025-07-11 02:13:59,224 views 11 140355105122112 저장 전 post.file 상태: nos_setup.exe
+ERROR 2025-07-11 02:13:59,225 views 11 140355105122112 파일 처리 중 오류: I/O operation on closed file.
+ERROR 2025-07-11 02:13:59,226 log 11 140355105122112 Internal Server Error: /board/post/18/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 101, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in _save_table
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in <listcomp>
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 302, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 89, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 54, in save
+    name = self._save(name, content)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 283, in _save
+    for chunk in content.chunks():
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/uploadedfile.py", line 94, in chunks
+    self.file.seek(0)
+ValueError: I/O operation on closed file.
+INFO 2025-07-11 02:15:37,521 views 11 140355105122112 POST 요청 수신 - pk: 18, FILES: ['file']
+INFO 2025-07-11 02:15:37,521 views 11 140355105122112 POST 데이터: ['csrfmiddlewaretoken', 'category', 'title', 'content', 'file-clear']
+INFO 2025-07-11 02:15:37,526 views 11 140355105122112 폼 검증 성공
+INFO 2025-07-11 02:15:37,526 views 11 140355105122112 파일 삭제 체크박스가 체크됨
+INFO 2025-07-11 02:15:37,526 views 11 140355105122112 현재 post.file 상태: nos_setup.exe
+INFO 2025-07-11 02:15:37,527 views 11 140355105122112 삭제할 파일 정보: nos_setup.exe, 경로: /app/media/nos_setup.exe
+INFO 2025-07-11 02:15:37,527 models 11 140355105122112 파일 삭제 성공: None
+INFO 2025-07-11 02:15:37,527 views 11 140355105122112 delete_file 메서드로 파일 삭제 성공
+INFO 2025-07-11 02:15:37,527 views 11 140355105122112 파일 필드를 None으로 설정
+INFO 2025-07-11 02:15:37,527 views 11 140355105122112 새 파일 업로드 감지: nos_setup.exe, 크기: 28958088
+INFO 2025-07-11 02:15:37,527 views 11 140355105122112 새 파일 설정 완료
+INFO 2025-07-11 02:15:37,528 views 11 140355105122112 저장 전 post.file 상태: nos_setup.exe
+ERROR 2025-07-11 02:15:37,529 views 11 140355105122112 파일 처리 중 오류: I/O operation on closed file.
+ERROR 2025-07-11 02:15:37,530 log 11 140355105122112 Internal Server Error: /board/post/18/edit/
+WARNING 2025-07-11 02:20:29,692 log 10 139854174918464 Not Found: /favicon.ico
+WARNING 2025-07-11 02:35:17,736 log 8 140425748449088 Not Found: /favicon.ico
+INFO 2025-07-11 02:35:30,439 models 8 140425748449088 파일 삭제 성공: None
+ERROR 2025-07-11 02:35:30,442 log 8 140425748449088 Internal Server Error: /board/post/18/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 69, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in _save_table
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in <listcomp>
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 302, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 89, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 54, in save
+    name = self._save(name, content)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 283, in _save
+    for chunk in content.chunks():
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/uploadedfile.py", line 94, in chunks
+    self.file.seek(0)
+ValueError: I/O operation on closed file.
+INFO 2025-07-11 02:36:12,623 models 10 140425748449088 파일 삭제 성공: None
+ERROR 2025-07-11 02:36:12,632 log 10 140425748449088 Internal Server Error: /board/post/18/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 69, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in _save_table
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in <listcomp>
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 302, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 89, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 54, in save
+    name = self._save(name, content)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 283, in _save
+    for chunk in content.chunks():
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/uploadedfile.py", line 94, in chunks
+    self.file.seek(0)
+ValueError: I/O operation on closed file.
+INFO 2025-07-11 02:39:48,549 models 11 139647048345408 파일 삭제 성공: None
+ERROR 2025-07-11 02:39:48,558 views 11 139647048345408 파일 처리 중 오류: I/O operation on closed file.
+Traceback (most recent call last):
+  File "/app/freeboard/views.py", line 70, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in _save_table
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in <listcomp>
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 302, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 89, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 54, in save
+    name = self._save(name, content)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 283, in _save
+    for chunk in content.chunks():
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/uploadedfile.py", line 94, in chunks
+    self.file.seek(0)
+ValueError: I/O operation on closed file.
+
+ERROR 2025-07-11 02:39:48,558 log 11 139647048345408 Internal Server Error: /board/post/18/edit/
+INFO 2025-07-11 02:43:55,489 models 11 140060500764480 파일 삭제 성공: None
+ERROR 2025-07-11 02:43:55,498 views 11 140060500764480 파일 처리 중 오류: I/O operation on closed file.
+Traceback (most recent call last):
+  File "/app/freeboard/views.py", line 72, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in _save_table
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in <listcomp>
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 302, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 89, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 54, in save
+    name = self._save(name, content)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 283, in _save
+    for chunk in content.chunks():
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/uploadedfile.py", line 94, in chunks
+    self.file.seek(0)
+ValueError: I/O operation on closed file.
+
+ERROR 2025-07-11 02:43:55,499 log 11 140060500764480 Internal Server Error: /board/post/18/edit/
+INFO 2025-07-11 02:48:29,383 models 12 140060500764480 파일 삭제 성공: None
+ERROR 2025-07-11 02:48:29,391 views 12 140060500764480 파일 처리 중 오류: I/O operation on closed file.
+Traceback (most recent call last):
+  File "/app/freeboard/views.py", line 72, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in _save_table
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in <listcomp>
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 302, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 89, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 54, in save
+    name = self._save(name, content)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 283, in _save
+    for chunk in content.chunks():
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/uploadedfile.py", line 94, in chunks
+    self.file.seek(0)
+ValueError: I/O operation on closed file.
+
+ERROR 2025-07-11 02:48:29,392 log 12 140060500764480 Internal Server Error: /board/post/18/edit/
+INFO 2025-07-11 02:51:23,579 models 9 140060500764480 파일 삭제 성공: None
+ERROR 2025-07-11 02:51:23,583 views 9 140060500764480 파일 처리 중 오류: I/O operation on closed file.
+Traceback (most recent call last):
+  File "/app/freeboard/views.py", line 72, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in _save_table
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in <listcomp>
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 302, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 89, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 54, in save
+    name = self._save(name, content)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 283, in _save
+    for chunk in content.chunks():
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/uploadedfile.py", line 94, in chunks
+    self.file.seek(0)
+ValueError: I/O operation on closed file.
+
+ERROR 2025-07-11 02:51:23,584 log 9 140060500764480 Internal Server Error: /board/post/18/edit/
+INFO 2025-07-11 03:02:28,166 models 12 140060685211456 파일 삭제 성공: None
+ERROR 2025-07-11 03:02:28,170 log 12 140060685211456 Internal Server Error: /board/post/18/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 69, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in _save_table
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in <listcomp>
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 302, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 89, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 54, in save
+    name = self._save(name, content)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 283, in _save
+    for chunk in content.chunks():
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/uploadedfile.py", line 94, in chunks
+    self.file.seek(0)
+ValueError: I/O operation on closed file.
+INFO 2025-07-11 03:02:47,765 models 10 140060685211456 파일 삭제 성공: None
+ERROR 2025-07-11 03:02:47,766 log 10 140060685211456 Internal Server Error: /board/post/18/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 69, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in _save_table
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in <listcomp>
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 302, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 89, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 54, in save
+    name = self._save(name, content)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 283, in _save
+    for chunk in content.chunks():
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/uploadedfile.py", line 94, in chunks
+    self.file.seek(0)
+ValueError: I/O operation on closed file.
+INFO 2025-07-11 04:11:43,856 models 9 140541063358272 파일 삭제 성공: None
+INFO 2025-07-11 04:12:40,303 models 11 140541063358272 파일 삭제 성공: None
+ERROR 2025-07-11 04:12:40,310 log 11 140541063358272 Internal Server Error: /board/post/18/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 69, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in _save_table
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in <listcomp>
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 302, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 89, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 54, in save
+    name = self._save(name, content)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 283, in _save
+    for chunk in content.chunks():
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/uploadedfile.py", line 94, in chunks
+    self.file.seek(0)
+ValueError: I/O operation on closed file.
+INFO 2025-07-11 04:13:43,332 models 10 140541063358272 파일 삭제 성공: None
+ERROR 2025-07-11 04:13:43,334 log 10 140541063358272 Internal Server Error: /board/post/18/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 69, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in _save_table
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in <listcomp>
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 302, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 89, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 54, in save
+    name = self._save(name, content)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 283, in _save
+    for chunk in content.chunks():
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/uploadedfile.py", line 94, in chunks
+    self.file.seek(0)
+ValueError: I/O operation on closed file.
+INFO 2025-07-11 04:14:21,958 models 12 140541063358272 파일 삭제 성공: None
+ERROR 2025-07-11 04:14:21,959 log 12 140541063358272 Internal Server Error: /board/post/18/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 69, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in _save_table
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in <listcomp>
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 302, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 89, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 54, in save
+    name = self._save(name, content)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 283, in _save
+    for chunk in content.chunks():
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/uploadedfile.py", line 94, in chunks
+    self.file.seek(0)
+ValueError: I/O operation on closed file.
+INFO 2025-07-11 04:20:07,104 models 12 140541063358272 파일 삭제 성공: None
+ERROR 2025-07-11 04:20:07,105 log 12 140541063358272 Internal Server Error: /board/post/19/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 69, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in _save_table
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in <listcomp>
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 302, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 89, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 54, in save
+    name = self._save(name, content)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 283, in _save
+    for chunk in content.chunks():
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/uploadedfile.py", line 94, in chunks
+    self.file.seek(0)
+ValueError: I/O operation on closed file.
+INFO 2025-07-11 04:21:10,833 models 11 140541063358272 파일 삭제 성공: None
+INFO 2025-07-11 04:45:23,606 models 10 140541063358272 파일 삭제 성공: None
+ERROR 2025-07-11 04:45:23,607 log 10 140541063358272 Internal Server Error: /board/post/19/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 69, in post_edit
+    # 임시 파일에 복사하여 파일 핸들러 문제 방지
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in _save_table
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in <listcomp>
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 302, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 89, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 54, in save
+    name = self._save(name, content)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 283, in _save
+    for chunk in content.chunks():
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/uploadedfile.py", line 94, in chunks
+    self.file.seek(0)
+ValueError: I/O operation on closed file.
+INFO 2025-07-11 05:01:51,261 views 11 139697733207872 저장 시작
+INFO 2025-07-11 05:01:51,276 views 11 139697733207872 저장 완료
+INFO 2025-07-11 05:02:59,338 views 10 139697733207872 저장 시작
+INFO 2025-07-11 05:02:59,345 views 10 139697733207872 저장 완료
+INFO 2025-07-11 05:03:25,528 views 8 139697733207872 저장 시작
+INFO 2025-07-11 05:03:25,533 views 8 139697733207872 저장 완료
+INFO 2025-07-11 05:29:23,711 models 10 139633230661440 파일 삭제 성공: None
+INFO 2025-07-11 05:29:23,713 views 10 139633230661440 저장 시작
+INFO 2025-07-11 05:29:23,729 views 10 139633230661440 저장 완료
+INFO 2025-07-11 05:29:41,194 models 11 139633230661440 파일 삭제 성공: None
+INFO 2025-07-11 05:29:41,194 views 11 139633230661440 저장 시작
+ERROR 2025-07-11 05:29:41,198 log 11 139633230661440 Internal Server Error: /board/post/19/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 77, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in _save_table
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in <listcomp>
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 302, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 89, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 54, in save
+    name = self._save(name, content)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 283, in _save
+    for chunk in content.chunks():
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/uploadedfile.py", line 94, in chunks
+    self.file.seek(0)
+ValueError: I/O operation on closed file.
+INFO 2025-07-11 05:31:36,739 models 9 139633230661440 파일 삭제 성공: None
+INFO 2025-07-11 05:31:36,739 views 9 139633230661440 저장 시작
+ERROR 2025-07-11 05:31:36,740 log 9 139633230661440 Internal Server Error: /board/post/18/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 77, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in _save_table
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 855, in <listcomp>
+    values = [(f, None, (getattr(self, f.attname) if raw else f.pre_save(self, False)))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 302, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/fields/files.py", line 89, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 54, in save
+    name = self._save(name, content)
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/storage.py", line 283, in _save
+    for chunk in content.chunks():
+  File "/usr/local/lib/python3.10/site-packages/django/core/files/uploadedfile.py", line 94, in chunks
+    self.file.seek(0)
+ValueError: I/O operation on closed file.
+INFO 2025-07-11 05:40:22,868 views 12 140191946811200 저장 시작
+INFO 2025-07-11 05:40:22,911 views 12 140191946811200 저장 완료
+INFO 2025-07-11 05:40:38,331 views 12 140191946811200 저장 시작
+INFO 2025-07-11 05:40:38,342 views 12 140191946811200 저장 완료
+INFO 2025-07-11 05:40:51,050 views 11 140191946811200 기존 파일 삭제 성공
+INFO 2025-07-11 05:40:51,050 views 11 140191946811200 저장 시작
+INFO 2025-07-11 05:40:51,055 views 11 140191946811200 저장 완료
+INFO 2025-07-11 05:42:14,026 views 9 140191946811200 저장 시작
+INFO 2025-07-11 05:42:14,112 views 9 140191946811200 저장 완료
+INFO 2025-07-11 05:42:39,429 views 9 140191946811200 저장 시작
+INFO 2025-07-11 05:42:39,436 views 9 140191946811200 저장 완료
+INFO 2025-07-11 05:43:18,092 views 9 140191946811200 저장 시작
+INFO 2025-07-11 05:43:18,099 views 9 140191946811200 저장 완료
+WARNING 2025-07-11 06:27:33,983 log 10 140047045494592 Not Found: /favicon.ico
+INFO 2025-07-11 06:28:34,664 views 12 140047045494592 저장 시작
+INFO 2025-07-11 06:28:34,672 views 12 140047045494592 저장 완료
+INFO 2025-07-11 06:28:54,392 views 12 140047045494592 기존 파일 삭제 성공
+INFO 2025-07-11 06:28:54,393 views 12 140047045494592 저장 시작
+INFO 2025-07-11 06:28:54,399 views 12 140047045494592 저장 완료
+INFO 2025-07-11 06:29:28,799 views 10 140047045494592 저장 시작
+INFO 2025-07-11 06:29:28,805 views 10 140047045494592 저장 완료
+INFO 2025-07-11 06:37:31,843 views 12 140345914328896 저장 시작
+INFO 2025-07-11 06:37:31,917 views 12 140345914328896 저장 완료
+INFO 2025-07-11 06:37:59,275 views 10 140345914328896 저장 시작
+INFO 2025-07-11 06:37:59,281 views 10 140345914328896 저장 완료
+WARNING 2025-07-11 07:10:52,432 log 12 140684082366272 Not Found: /favicon.ico
+INFO 2025-07-11 07:11:05,298 views 11 140684082366272 저장 시작
+INFO 2025-07-11 07:11:05,312 views 11 140684082366272 저장 완료
+INFO 2025-07-11 07:11:32,139 views 11 140684082366272 저장 시작
+INFO 2025-07-11 07:11:32,143 views 11 140684082366272 저장 완료
+INFO 2025-07-11 07:12:38,606 views 9 140684082366272 저장 시작
+INFO 2025-07-11 07:12:38,613 views 9 140684082366272 저장 완료
+WARNING 2025-07-11 07:15:48,140 log 12 140684082366272 Not Found: /wp-includes/ID3/license.txt
+WARNING 2025-07-11 07:15:48,633 log 11 140684082366272 Not Found: /feed/
+WARNING 2025-07-11 07:15:49,508 log 10 140684082366272 Not Found: /xmlrpc.php
+WARNING 2025-07-11 07:15:49,918 log 9 140684082366272 Not Found: /blog/wp-includes/wlwmanifest.xml
+WARNING 2025-07-11 07:15:50,315 log 12 140684082366272 Not Found: /web/wp-includes/wlwmanifest.xml
+WARNING 2025-07-11 07:15:50,604 log 11 140684082366272 Not Found: /wordpress/wp-includes/wlwmanifest.xml
+WARNING 2025-07-11 07:15:50,907 log 12 140684082366272 Not Found: /wp/wp-includes/wlwmanifest.xml
+WARNING 2025-07-11 07:15:51,204 log 11 140684082366272 Not Found: /2020/wp-includes/wlwmanifest.xml
+WARNING 2025-07-11 07:15:51,507 log 11 140684082366272 Not Found: /2019/wp-includes/wlwmanifest.xml
+WARNING 2025-07-11 07:15:52,018 log 9 140684082366272 Not Found: /2021/wp-includes/wlwmanifest.xml
+WARNING 2025-07-11 07:15:52,304 log 10 140684082366272 Not Found: /shop/wp-includes/wlwmanifest.xml
+WARNING 2025-07-11 07:15:52,834 log 12 140684082366272 Not Found: /wp1/wp-includes/wlwmanifest.xml
+WARNING 2025-07-11 07:15:53,105 log 11 140684082366272 Not Found: /test/wp-includes/wlwmanifest.xml
+WARNING 2025-07-11 07:15:53,330 log 10 140684082366272 Not Found: /site/wp-includes/wlwmanifest.xml
+WARNING 2025-07-11 07:15:53,703 log 11 140684082366272 Not Found: /cms/wp-includes/wlwmanifest.xml
+WARNING 2025-07-11 07:21:13,980 log 11 140587992069952 Not Found: /favicon.ico
+INFO 2025-07-11 07:21:36,234 views 13 140587992069952 저장 시작
+INFO 2025-07-11 07:21:36,259 views 13 140587992069952 저장 완료
+INFO 2025-07-11 07:22:57,433 views 12 140587992069952 저장 시작
+INFO 2025-07-11 07:22:57,896 views 12 140587992069952 저장 완료
+INFO 2025-07-11 07:23:37,445 views 13 140587992069952 기존 파일 삭제 성공
+INFO 2025-07-11 07:23:37,445 views 13 140587992069952 저장 시작
+INFO 2025-07-11 07:23:37,449 views 13 140587992069952 저장 완료
+ERROR 2025-07-11 07:36:08,067 exception 11 140587992069952 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-11 07:36:08,069 log 11 140587992069952 Bad Request: /
+ERROR 2025-07-11 07:37:00,373 exception 11 140587992069952 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-11 07:37:00,373 log 11 140587992069952 Bad Request: /
+WARNING 2025-07-11 08:53:38,576 log 13 140587992069952 Not Found: /favicon.ico
+INFO 2025-07-11 08:54:15,839 views 12 140587992069952 저장 시작
+INFO 2025-07-11 08:54:15,908 views 12 140587992069952 저장 완료
+INFO 2025-07-11 08:54:46,443 views 13 140587992069952 저장 시작
+INFO 2025-07-11 08:54:46,452 views 13 140587992069952 저장 완료
+INFO 2025-07-11 08:55:04,775 views 12 140587992069952 저장 시작
+INFO 2025-07-11 08:55:04,780 views 12 140587992069952 저장 완료
+INFO 2025-07-11 08:55:22,240 views 13 140587992069952 기존 파일 삭제 성공
+INFO 2025-07-11 08:55:22,240 views 13 140587992069952 저장 시작
+INFO 2025-07-11 08:55:22,244 views 13 140587992069952 저장 완료
+ERROR 2025-07-11 09:03:50,757 exception 13 140587992069952 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-11 09:03:50,759 log 13 140587992069952 Bad Request: /
+ERROR 2025-07-11 09:03:51,197 exception 13 140587992069952 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-11 09:03:51,197 log 13 140587992069952 Bad Request: /
+ERROR 2025-07-11 11:55:42,459 exception 13 140587992069952 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-11 11:55:42,462 log 13 140587992069952 Bad Request: /
+ERROR 2025-07-11 11:56:17,078 exception 14 140587992069952 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-11 11:56:17,124 log 14 140587992069952 Bad Request: /favicon.ico
+ERROR 2025-07-11 11:56:58,372 exception 12 140587992069952 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-11 11:56:58,381 log 12 140587992069952 Bad Request: /login
+WARNING 2025-07-11 15:52:30,956 log 14 140587992069952 Not Found: /favicon.ico
+WARNING 2025-07-11 16:26:57,508 log 14 140587992069952 Not Found: /favicon.ico
+ERROR 2025-07-11 16:32:42,212 exception 12 140587992069952 Invalid HTTP_HOST header: '193.122.99.100'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-11 16:32:42,220 log 12 140587992069952 Bad Request: /
+ERROR 2025-07-11 16:42:45,168 exception 11 140587992069952 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-11 16:42:45,181 log 11 140587992069952 Bad Request: /
+WARNING 2025-07-11 17:59:49,982 log 14 140587992069952 Not Found: /wp-includes/ID3/license.txt
+WARNING 2025-07-11 17:59:50,204 log 12 140587992069952 Not Found: /feed/
+WARNING 2025-07-11 17:59:50,417 log 11 140587992069952 Not Found: /xmlrpc.php
+WARNING 2025-07-11 17:59:50,637 log 15 140587992069952 Not Found: /blog/wp-includes/wlwmanifest.xml
+WARNING 2025-07-11 17:59:50,868 log 12 140587992069952 Not Found: /web/wp-includes/wlwmanifest.xml
+WARNING 2025-07-11 17:59:51,078 log 12 140587992069952 Not Found: /wordpress/wp-includes/wlwmanifest.xml
+WARNING 2025-07-11 17:59:51,288 log 15 140587992069952 Not Found: /wp/wp-includes/wlwmanifest.xml
+WARNING 2025-07-11 17:59:51,500 log 15 140587992069952 Not Found: /2020/wp-includes/wlwmanifest.xml
+WARNING 2025-07-11 17:59:51,713 log 14 140587992069952 Not Found: /2019/wp-includes/wlwmanifest.xml
+WARNING 2025-07-11 17:59:51,925 log 11 140587992069952 Not Found: /2021/wp-includes/wlwmanifest.xml
+WARNING 2025-07-11 17:59:52,164 log 14 140587992069952 Not Found: /shop/wp-includes/wlwmanifest.xml
+WARNING 2025-07-11 17:59:52,386 log 14 140587992069952 Not Found: /wp1/wp-includes/wlwmanifest.xml
+WARNING 2025-07-11 17:59:52,604 log 12 140587992069952 Not Found: /test/wp-includes/wlwmanifest.xml
+WARNING 2025-07-11 17:59:52,816 log 14 140587992069952 Not Found: /site/wp-includes/wlwmanifest.xml
+WARNING 2025-07-11 17:59:53,036 log 14 140587992069952 Not Found: /cms/wp-includes/wlwmanifest.xml
+ERROR 2025-07-11 20:23:42,065 exception 12 140587992069952 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-11 20:23:42,102 log 12 140587992069952 Bad Request: /
+WARNING 2025-07-12 00:27:17,820 log 17 140587992069952 Not Found: /wp-includes/ID3/license.txt
+WARNING 2025-07-12 00:27:18,047 log 17 140587992069952 Not Found: /feed/
+WARNING 2025-07-12 00:27:18,979 log 14 140587992069952 Not Found: /xmlrpc.php
+WARNING 2025-07-12 00:27:19,345 log 15 140587992069952 Not Found: /blog/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 00:27:19,786 log 12 140587992069952 Not Found: /web/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 00:27:19,999 log 17 140587992069952 Not Found: /wordpress/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 00:27:20,235 log 15 140587992069952 Not Found: /wp/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 00:27:20,466 log 14 140587992069952 Not Found: /2020/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 00:27:20,680 log 17 140587992069952 Not Found: /2019/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 00:27:20,898 log 12 140587992069952 Not Found: /2021/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 00:27:21,133 log 14 140587992069952 Not Found: /shop/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 00:27:21,366 log 14 140587992069952 Not Found: /wp1/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 00:27:21,584 log 17 140587992069952 Not Found: /test/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 00:27:21,820 log 15 140587992069952 Not Found: /site/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 00:27:22,035 log 17 140587992069952 Not Found: /cms/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 00:45:42,163 log 15 140587992069952 Not Found: /favicon.ico
+INFO 2025-07-12 01:02:23,778 views 17 140587992069952 저장 시작
+INFO 2025-07-12 01:02:24,132 views 17 140587992069952 저장 완료
+ERROR 2025-07-12 01:26:43,567 exception 15 140587992069952 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-12 01:26:43,568 log 15 140587992069952 Bad Request: /
+ERROR 2025-07-12 01:43:51,992 exception 15 140587992069952 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-12 01:43:51,995 log 15 140587992069952 Bad Request: /favicon.ico
+ERROR 2025-07-12 02:09:01,726 exception 17 140587992069952 Invalid HTTP_HOST header: 'google.com:443'. You may need to add 'google.com' to ALLOWED_HOSTS.
+WARNING 2025-07-12 02:09:01,727 log 17 140587992069952 Bad Request: /443
+ERROR 2025-07-12 05:04:48,794 exception 17 140587992069952 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-12 05:04:48,795 log 17 140587992069952 Bad Request: /
+ERROR 2025-07-12 05:06:53,797 exception 17 140587992069952 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-12 05:06:53,797 log 17 140587992069952 Bad Request: /
+WARNING 2025-07-12 05:59:08,312 log 18 140587992069952 Not Found: /favicon.ico
+INFO 2025-07-12 07:09:26,104 views 15 140587992069952 저장 시작
+ERROR 2025-07-12 07:09:26,171 log 15 140587992069952 Internal Server Error: /board/post/21/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 100, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 858, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 912, in _do_update
+    return filtered._update(values) > 0
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 802, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1559, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+INFO 2025-07-12 07:10:10,353 views 17 140587992069952 저장 시작
+ERROR 2025-07-12 07:10:10,371 log 17 140587992069952 Internal Server Error: /board/post/21/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 100, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 858, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 912, in _do_update
+    return filtered._update(values) > 0
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 802, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1559, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+INFO 2025-07-12 07:11:35,516 views 18 140587992069952 저장 시작
+ERROR 2025-07-12 07:11:35,520 log 18 140587992069952 Internal Server Error: /board/post/21/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 100, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 858, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 912, in _do_update
+    return filtered._update(values) > 0
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 802, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1559, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+INFO 2025-07-12 07:11:52,265 views 15 140587992069952 저장 시작
+INFO 2025-07-12 07:11:52,305 views 15 140587992069952 저장 완료
+INFO 2025-07-12 07:13:00,962 views 18 140587992069952 저장 시작
+INFO 2025-07-12 07:13:00,966 views 18 140587992069952 저장 완료
+INFO 2025-07-12 07:13:50,387 views 17 140587992069952 저장 시작
+INFO 2025-07-12 07:13:50,391 views 17 140587992069952 저장 완료
+INFO 2025-07-12 07:14:09,203 views 17 140587992069952 저장 시작
+INFO 2025-07-12 07:14:09,207 views 17 140587992069952 저장 완료
+INFO 2025-07-12 07:14:22,022 views 17 140587992069952 저장 시작
+ERROR 2025-07-12 07:14:22,024 log 17 140587992069952 Internal Server Error: /board/post/21/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 100, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 858, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 912, in _do_update
+    return filtered._update(values) > 0
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 802, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1559, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+WARNING 2025-07-12 07:14:22,745 log 18 140587992069952 Not Found: /wp-includes/ID3/license.txt
+WARNING 2025-07-12 07:14:22,963 log 18 140587992069952 Not Found: /feed/
+WARNING 2025-07-12 07:14:23,192 log 15 140587992069952 Not Found: /xmlrpc.php
+WARNING 2025-07-12 07:14:23,409 log 18 140587992069952 Not Found: /blog/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 07:14:23,625 log 15 140587992069952 Not Found: /web/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 07:14:23,839 log 18 140587992069952 Not Found: /wordpress/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 07:14:24,081 log 14 140587992069952 Not Found: /wp/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 07:14:24,328 log 17 140587992069952 Not Found: /2020/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 07:14:24,544 log 17 140587992069952 Not Found: /2019/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 07:14:24,768 log 17 140587992069952 Not Found: /2021/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 07:14:24,997 log 17 140587992069952 Not Found: /shop/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 07:14:25,212 log 15 140587992069952 Not Found: /wp1/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 07:14:25,428 log 17 140587992069952 Not Found: /test/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 07:14:25,655 log 17 140587992069952 Not Found: /site/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 07:14:25,871 log 17 140587992069952 Not Found: /cms/wp-includes/wlwmanifest.xml
+INFO 2025-07-12 07:15:29,726 views 18 140587992069952 저장 시작
+ERROR 2025-07-12 07:15:29,728 log 18 140587992069952 Internal Server Error: /board/post/21/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 100, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 858, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 912, in _do_update
+    return filtered._update(values) > 0
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 802, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1559, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+INFO 2025-07-12 07:19:01,469 views 17 140587992069952 저장 시작
+ERROR 2025-07-12 07:19:01,471 log 17 140587992069952 Internal Server Error: /board/post/21/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 100, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 858, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 912, in _do_update
+    return filtered._update(values) > 0
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 802, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1559, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+INFO 2025-07-12 07:21:07,962 views 15 140587992069952 저장 시작
+ERROR 2025-07-12 07:21:07,963 log 15 140587992069952 Internal Server Error: /board/post/21/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 100, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 858, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 912, in _do_update
+    return filtered._update(values) > 0
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 802, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1559, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+INFO 2025-07-12 07:36:01,024 views 14 140587992069952 저장 시작
+ERROR 2025-07-12 07:36:01,056 log 14 140587992069952 Internal Server Error: /board/post/21/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 100, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 858, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 912, in _do_update
+    return filtered._update(values) > 0
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 802, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1559, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+WARNING 2025-07-12 07:36:17,149 log 17 140587992069952 Not Found: /favicon.ico
+INFO 2025-07-12 07:36:27,747 views 18 140587992069952 저장 시작
+ERROR 2025-07-12 07:36:27,748 log 18 140587992069952 Internal Server Error: /board/post/21/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 100, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 858, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 912, in _do_update
+    return filtered._update(values) > 0
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 802, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1559, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+INFO 2025-07-12 07:37:10,680 views 15 140587992069952 저장 시작
+ERROR 2025-07-12 07:37:10,681 log 15 140587992069952 Internal Server Error: /board/post/21/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 100, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 858, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 912, in _do_update
+    return filtered._update(values) > 0
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 802, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1559, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+INFO 2025-07-12 07:37:12,752 views 14 140587992069952 저장 시작
+ERROR 2025-07-12 07:37:12,754 log 14 140587992069952 Internal Server Error: /board/post/21/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 100, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 858, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 912, in _do_update
+    return filtered._update(values) > 0
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 802, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1559, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+INFO 2025-07-12 07:41:19,297 views 15 140587992069952 저장 시작
+ERROR 2025-07-12 07:41:19,298 log 15 140587992069952 Internal Server Error: /board/post/21/edit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/freeboard/views.py", line 100, in post_edit
+    post.save()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 858, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/base.py", line 912, in _do_update
+    return filtered._update(values) > 0
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 802, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1559, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.10/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.10/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/usr/local/lib/python3.10/site-packages/MySQLdb/connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x94\\x84 \\xEC...' for column `freeboard`.`freeboard_post`.`content` at row 1")
+ERROR 2025-07-12 07:54:34,237 exception 14 140587992069952 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-12 07:54:34,398 log 14 140587992069952 Bad Request: /
+INFO 2025-07-12 08:03:02,941 views 11 139953770469184 저장 시작
+INFO 2025-07-12 08:03:02,952 views 11 139953770469184 저장 완료
+INFO 2025-07-12 08:13:13,219 views 11 139953770469184 기존 파일 삭제 성공
+INFO 2025-07-12 08:13:13,220 views 11 139953770469184 저장 시작
+INFO 2025-07-12 08:13:13,226 views 11 139953770469184 저장 완료
+INFO 2025-07-12 08:13:59,518 views 10 139953770469184 저장 시작
+INFO 2025-07-12 08:13:59,708 views 10 139953770469184 저장 완료
+INFO 2025-07-12 08:51:59,386 views 11 139953770469184 저장 시작
+INFO 2025-07-12 08:51:59,395 views 11 139953770469184 저장 완료
+WARNING 2025-07-12 09:01:38,342 log 11 140670138419008 Not Found: /favicon.ico
+INFO 2025-07-12 09:01:52,748 views 8 140670138419008 저장 시작
+INFO 2025-07-12 09:01:52,754 views 8 140670138419008 저장 완료
+WARNING 2025-07-12 09:23:07,390 log 9 139865864537920 Not Found: /favicon.ico
+INFO 2025-07-12 09:24:18,812 views 12 139865864537920 새 파일 저장 완료
+INFO 2025-07-12 09:25:56,669 views 9 139865864537920 새 파일 저장 완료
+INFO 2025-07-12 09:27:15,612 views 10 139865864537920 새 파일 저장 완료
+INFO 2025-07-12 09:27:39,865 views 11 139865864537920 기존 파일 삭제 성공
+INFO 2025-07-12 09:27:39,865 views 11 139865864537920 저장 시작
+INFO 2025-07-12 09:27:39,870 views 11 139865864537920 저장 완료
+INFO 2025-07-12 09:31:02,965 views 9 140186982561600 새 파일 저장 완료
+INFO 2025-07-12 09:31:31,051 views 10 140186982561600 새 파일 저장 완료
+INFO 2025-07-12 09:38:25,177 views 12 140099909400384 새 파일 저장 완료
+INFO 2025-07-12 09:41:53,484 views 10 140159454697280 POST 데이터: <QueryDict: {'csrfmiddlewaretoken': ['aHGJunTEQ9f9W1ovaC3Xes9hguSJu5ZPy3r6RVvL8ukVi72p5mF1WlKfocZHW3Qk'], 'category': ['2'], 'title': ['1'], 'content': ['<p>1</p>'], 'file-clear': ['on']}>
+INFO 2025-07-12 09:41:53,484 views 10 140159454697280 FILES 데이터: <MultiValueDict: {'file': [<InMemoryUploadedFile: 2.png (image/png)>]}>
+INFO 2025-07-12 09:41:53,492 views 10 140159454697280 새 파일 저장 완료
+INFO 2025-07-12 09:47:23,890 views 9 140566439888704 POST 데이터: <QueryDict: {'csrfmiddlewaretoken': ['p6cUcgAIaTs8l9UR0AkUgA5qpfR3bcpvNsXhzOcPsexUHfyLVkWYYtGoxXY1Dag0'], 'category': ['2'], 'title': ['1'], 'content': ['<p>1</p>'], 'file-clear': ['on']}>
+INFO 2025-07-12 09:47:23,893 views 9 140566439888704 FILES 데이터: <MultiValueDict: {'file': [<InMemoryUploadedFile: 1.png (image/png)>]}>
+INFO 2025-07-12 09:47:23,903 views 9 140566439888704 새 파일 저장 완료
+WARNING 2025-07-12 09:53:08,803 log 12 139768109532992 Not Found: /favicon.ico
+INFO 2025-07-12 09:53:19,547 views 11 139768109532992 POST 데이터: <QueryDict: {'csrfmiddlewaretoken': ['cGxPtoyMwifTwj6IMLvcxRhUFhM71Y9JA2icQWaTODkFSpKCHv7gfKSSNZT5tW0e'], 'category': ['2'], 'title': ['1'], 'content': ['<p>1</p>'], 'file-clear': ['on']}>
+INFO 2025-07-12 09:53:19,548 views 11 139768109532992 FILES 데이터: <MultiValueDict: {'file': [<InMemoryUploadedFile: 2.png (image/png)>]}>
+INFO 2025-07-12 09:53:19,557 views 11 139768109532992 새 파일 저장 완료
+INFO 2025-07-12 09:55:03,606 views 11 139768109532992 POST 데이터: <QueryDict: {'csrfmiddlewaretoken': ['LYECxKxJeFeZ55PIF7wKWN1DgUWUImTPAJPaY6jHEfCMtDEdWzU87wnj26lVLycA'], 'category': ['2'], 'title': ['1'], 'content': ['<p>1</p>'], 'file-clear': ['on']}>
+INFO 2025-07-12 09:55:03,614 views 11 139768109532992 FILES 데이터: <MultiValueDict: {'file': [<InMemoryUploadedFile: 1.png (image/png)>]}>
+INFO 2025-07-12 09:55:03,625 views 11 139768109532992 새 파일 저장 완료
+WARNING 2025-07-12 09:58:02,686 log 11 140169115010880 Not Found: /favicon.ico
+WARNING 2025-07-12 09:58:04,204 log 10 140169115010880 Not Found: /favicon.ico
+WARNING 2025-07-12 09:58:05,571 log 8 140169115010880 Not Found: /favicon.ico
+WARNING 2025-07-12 09:58:07,186 log 10 140169115010880 Not Found: /favicon.ico
+INFO 2025-07-12 09:58:19,789 views 8 140169115010880 POST 데이터: <QueryDict: {'csrfmiddlewaretoken': ['Wj2uOyFBRR9hsnoZ3QKJ8iwt4i9Xq4qWL4d2fUrzhrx4QVduki87j1S9QuyYtgJH'], 'category': ['2'], 'title': ['1'], 'content': ['<p>1</p>'], 'file-clear': ['on']}>
+INFO 2025-07-12 09:58:19,789 views 8 140169115010880 FILES 데이터: <MultiValueDict: {'file': [<InMemoryUploadedFile: 2.png (image/png)>]}>
+INFO 2025-07-12 09:58:19,796 views 8 140169115010880 새 파일 저장 완료
+WARNING 2025-07-12 10:03:45,386 log 12 140565402441536 Not Found: /favicon.ico
+WARNING 2025-07-12 10:03:46,551 log 9 140565402441536 Not Found: /favicon.ico
+INFO 2025-07-12 10:15:52,362 views 12 140565402441536 POST 데이터: <QueryDict: {'csrfmiddlewaretoken': ['QQSmj9KoGcxNPHMdw5qqHcE7E6ZnYaJpaJkv3vHr2vnpkQTlCchnCEvX19jYi4WE'], 'category': ['2'], 'title': ['1'], 'content': ['<p>1</p>'], 'file-clear': ['on']}>
+INFO 2025-07-12 10:15:52,363 views 12 140565402441536 FILES 데이터: <MultiValueDict: {'file': [<InMemoryUploadedFile: 1.png (image/png)>]}>
+INFO 2025-07-12 10:15:52,366 views 12 140565402441536 old_file_path: /app/media/uploads/2.png
+INFO 2025-07-12 10:15:52,366 views 12 140565402441536 os.path.exists(old_file_path): True
+INFO 2025-07-12 10:15:52,366 views 12 140565402441536 new_file_uploaded: True
+INFO 2025-07-12 10:15:52,366 views 12 140565402441536 삭제 시도 파일 경로: /app/media/uploads/2.png
+INFO 2025-07-12 10:15:52,366 views 12 140565402441536 기존 파일 삭제 성공
+INFO 2025-07-12 10:15:52,373 views 12 140565402441536 새 파일 저장 완료
+ERROR 2025-07-12 11:41:28,719 exception 9 139856997099328 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-12 11:41:28,761 log 9 139856997099328 Bad Request: /
+WARNING 2025-07-12 11:51:08,484 log 12 139856997099328 Not Found: /favicon.ico
+INFO 2025-07-12 11:51:54,894 models 12 139856997099328 파일 삭제 성공: None
+INFO 2025-07-12 11:52:23,235 models 9 139856997099328 파일 삭제 성공: None
+WARNING 2025-07-12 12:07:34,020 log 12 140028416198464 Not Found: /favicon.ico
+WARNING 2025-07-12 12:44:01,210 log 9 140028416198464 Not Found: /xmlrpc.php
+WARNING 2025-07-12 12:44:01,413 log 12 140028416198464 Not Found: /blog/robots.txt
+WARNING 2025-07-12 12:44:01,612 log 10 140028416198464 Not Found: /blog/
+WARNING 2025-07-12 12:44:01,810 log 10 140028416198464 Not Found: /wordpress/
+WARNING 2025-07-12 12:44:02,003 log 10 140028416198464 Not Found: /wp/
+ERROR 2025-07-12 12:58:01,697 exception 11 140028416198464 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-12 12:58:01,704 log 11 140028416198464 Bad Request: /
+ERROR 2025-07-12 12:58:07,861 exception 11 140028416198464 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-12 12:58:07,861 log 11 140028416198464 Bad Request: /favicon.ico
+ERROR 2025-07-12 12:58:38,494 exception 10 140028416198464 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-12 12:58:38,496 log 10 140028416198464 Bad Request: /robots.txt
+WARNING 2025-07-12 13:32:04,180 log 10 140028416198464 Not Found: /wp-includes/ID3/license.txt
+WARNING 2025-07-12 13:32:04,400 log 12 140028416198464 Not Found: /feed/
+WARNING 2025-07-12 13:32:04,619 log 11 140028416198464 Not Found: /xmlrpc.php
+WARNING 2025-07-12 13:32:04,860 log 12 140028416198464 Not Found: /blog/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 13:32:05,071 log 12 140028416198464 Not Found: /web/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 13:32:05,281 log 11 140028416198464 Not Found: /wordpress/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 13:32:05,498 log 13 140028416198464 Not Found: /wp/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 13:32:05,711 log 11 140028416198464 Not Found: /2020/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 13:32:05,926 log 11 140028416198464 Not Found: /2019/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 13:32:06,146 log 10 140028416198464 Not Found: /2021/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 13:32:06,369 log 10 140028416198464 Not Found: /shop/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 13:32:06,589 log 12 140028416198464 Not Found: /wp1/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 13:32:06,799 log 13 140028416198464 Not Found: /test/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 13:32:07,016 log 12 140028416198464 Not Found: /site/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 13:32:07,231 log 11 140028416198464 Not Found: /cms/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 19:47:23,974 log 12 140028416198464 Not Found: /wp-includes/ID3/license.txt
+WARNING 2025-07-12 19:47:24,190 log 12 140028416198464 Not Found: /feed/
+WARNING 2025-07-12 19:47:24,410 log 13 140028416198464 Not Found: /xmlrpc.php
+WARNING 2025-07-12 19:47:24,633 log 12 140028416198464 Not Found: /blog/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 19:47:24,848 log 12 140028416198464 Not Found: /web/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 19:47:25,065 log 10 140028416198464 Not Found: /wordpress/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 19:47:25,285 log 13 140028416198464 Not Found: /wp/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 19:47:25,506 log 13 140028416198464 Not Found: /2020/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 19:47:25,727 log 10 140028416198464 Not Found: /2019/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 19:47:25,947 log 11 140028416198464 Not Found: /2021/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 19:47:26,171 log 10 140028416198464 Not Found: /shop/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 19:47:26,385 log 10 140028416198464 Not Found: /wp1/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 19:47:26,605 log 11 140028416198464 Not Found: /test/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 19:47:26,822 log 11 140028416198464 Not Found: /site/wp-includes/wlwmanifest.xml
+WARNING 2025-07-12 19:47:27,042 log 12 140028416198464 Not Found: /cms/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 01:04:49,742 log 13 140028416198464 Not Found: /favicon.ico
+WARNING 2025-07-13 01:28:05,588 log 10 140603368130368 Not Found: /favicon.ico
+WARNING 2025-07-13 02:04:55,550 log 9 140603368130368 Not Found: /wp-includes/ID3/license.txt
+WARNING 2025-07-13 02:04:56,529 log 11 140603368130368 Not Found: /feed/
+WARNING 2025-07-13 02:04:57,492 log 12 140603368130368 Not Found: /xmlrpc.php
+WARNING 2025-07-13 02:04:57,775 log 9 140603368130368 Not Found: /blog/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 02:04:57,995 log 11 140603368130368 Not Found: /web/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 02:04:58,221 log 12 140603368130368 Not Found: /wordpress/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 02:04:58,444 log 12 140603368130368 Not Found: /wp/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 02:04:58,661 log 11 140603368130368 Not Found: /2020/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 02:04:58,997 log 10 140603368130368 Not Found: /2019/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 02:04:59,239 log 11 140603368130368 Not Found: /2021/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 02:04:59,493 log 12 140603368130368 Not Found: /shop/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 02:04:59,711 log 11 140603368130368 Not Found: /wp1/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 02:04:59,975 log 9 140603368130368 Not Found: /test/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 02:05:00,237 log 12 140603368130368 Not Found: /site/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 02:05:00,462 log 11 140603368130368 Not Found: /cms/wp-includes/wlwmanifest.xml
+ERROR 2025-07-13 02:10:52,513 exception 9 140603368130368 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-13 02:10:52,855 log 9 140603368130368 Bad Request: /cmd.cgi

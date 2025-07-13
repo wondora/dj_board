@@ -1,0 +1,16 @@
+services:
+  django_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "7000:7000"      
+    volumes:
+      - .:/app # 현재 프로젝트 디렉토리를 컨테이너의 /app에 마운트
+      - ./staticfiles:/app/staticfiles # 정적 파일 볼륨
+      - ./media:/app/media # 미디어 파일 볼륨
+    env_file:
+      - .env
+    command: >
+      sh -c "python manage.py migrate &&
+             gunicorn dj_board.wsgi:application --workers=4 --worker-class=gevent --bind 0.0.0.0:7000 --timeout=60"

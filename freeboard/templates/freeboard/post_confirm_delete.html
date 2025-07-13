@@ -1,0 +1,31 @@
+{% extends 'freeboard/base.html' %}
+
+{% block title %}게시글 삭제 확인{% endblock %}
+
+{% block content %}
+<style>
+    .confirm-box {
+        text-align: center;
+        padding: 40px;
+    }
+    .confirm-box h1 {
+        margin-bottom: 10px;
+    }
+    .confirm-box p {
+        color: var(--light-text-color);
+        margin-bottom: 30px;
+    }
+</style>
+
+<div class="confirm-box">
+    <h1>게시글 삭제</h1>
+    <p>"{{ object.title }}" 글을 정말로 삭제하시겠습니까?</p>
+    
+    <form method="post">
+        {% csrf_token %}
+        <a href="javascript:history.back()" class="btn btn-secondary">취소</a>
+        <button type="submit" class="btn btn-danger">삭제 확인</button>
+    </form>
+</div>
+
+{% endblock %}

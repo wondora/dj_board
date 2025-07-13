@@ -1,0 +1,7 @@
+Django==3.2.*
+django-summernote
+gunicorn
+mysqlclient
+pillow
+django-environ
+gevent
