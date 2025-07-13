@@ -98,6 +98,47 @@
         color: var(--white-color);
         border-color: #6c757d;
     }
+
+    .pagination {
+        display: flex;
+        justify-content: center;
+        margin: 30px 0 10px 0;
+        gap: 4px;
+    }
+    .pagination a, .pagination span {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+        min-width: 36px;
+        padding: 7px 12px;
+        margin: 0 2px;
+        border-radius: 8px;
+        background: #f8f9fa;
+        color: #333;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 15px;
+        border: 1px solid #e0e0e0;
+        transition: background 0.2s, color 0.2s, border 0.2s;
+    }
+    .pagination a:hover {
+        background: #e9ecef;
+        color: #007bff;
+        border: 1px solid #b0b0b0;
+    }
+    .pagination .current {
+        background: #007bff;
+        color: #fff;
+        border: 1px solid #007bff;
+        font-weight: bold;
+        cursor: default;
+    }
+    .pagination .disabled {
+        color: #bbb;
+        background: #f8f9fa;
+        border: 1px solid #e0e0e0;
+        cursor: not-allowed;
+    }
 </style>
 
 <div class="page-header">
@@ -133,5 +174,33 @@
         {% endfor %}
     </tbody>
 </table>
+
+<div class="pagination">
+    {% if posts.has_previous %}
+        <a href="?{% if current_category %}category={{ current_category.slug }}&{% endif %}page=1">처음</a>
+        <a href="?{% if current_category %}category={{ current_category.slug }}&{% endif %}page={{ posts.previous_page_number }}">이전</a>
+    {% else %}
+        <span class="disabled">처음</span>
+        <span class="disabled">이전</span>
+    {% endif %}
+
+    {% for num in posts.paginator.page_range %}
+        {% if num >= posts.number|add:'-2' and num <= posts.number|add:'2' %}
+            {% if posts.number == num %}
+                <span class="current">{{ num }}</span>
+            {% else %}
+                <a href="?{% if current_category %}category={{ current_category.slug }}&{% endif %}page={{ num }}">{{ num }}</a>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+
+    {% if posts.has_next %}
+        <a href="?{% if current_category %}category={{ current_category.slug }}&{% endif %}page={{ posts.next_page_number }}">다음</a>
+        <a href="?{% if current_category %}category={{ current_category.slug }}&{% endif %}page={{ posts.paginator.num_pages }}">마지막</a>
+    {% else %}
+        <span class="disabled">다음</span>
+        <span class="disabled">마지막</span>
+    {% endif %}
+</div>
 
 {% endblock %}
