@@ -106,6 +106,23 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
+	    // ⬇️ Summernote 붙여넣기 시 서식 제거 기능 추가
+    	$('#id_content').summernote({
+          callbacks: {
+            onPaste: function (e) {
+                const clipboardData = ((e.originalEvent || e).clipboardData || window.clipboardData);
+                const text = clipboardData.getData('text/plain');  // 순수 텍스트
+                e.preventDefault();
+
+                // 스타일 제거 후 텍스트 삽입
+                setTimeout(() => {
+                    document.execCommand('insertText', false, text);
+                }, 10);
+             }
+           }
+    	});
+  		// ⬆️ 이 부분이 추가되었습니다.
+
         var summernoteDiv = document.querySelector('div.summernote-div');
         if (summernoteDiv) {
             summernoteDiv.removeAttribute('width');
@@ -238,23 +255,6 @@
             });
         }
     });
-
-document.addEventListener('DOMContentLoaded', function () {
-    $('#id_content').summernote({
-        callbacks: {
-            onPaste: function (e) {
-                const clipboardData = ((e.originalEvent || e).clipboardData || window.clipboardData);
-                const text = clipboardData.getData('text/plain');  // 순수 텍스트
-                e.preventDefault();
-
-                // 스타일 제거 후 텍스트 삽입
-                setTimeout(() => {
-                    document.execCommand('insertText', false, text);
-                }, 10);
-            }
-        }
-    });
-});
 
 </script>
 
