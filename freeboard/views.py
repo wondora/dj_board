@@ -1,15 +1,18 @@
 from django.shortcuts import render, get_object_or_404, redirect
-from .models import Post, Category
-from .forms import PostForm
+from freeboard.models import Post, Category
+from freeboard.forms import PostForm
 from django.contrib.auth.decorators import login_required
 from django.http import JsonResponse
 from django.core.files import File
 from django.core.files.temp import NamedTemporaryFile
 import os
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 @login_required
 def post_list(request):
     category_slug = request.GET.get('category')
+    page = request.GET.get('page', 1)
+    query = request.GET.get('q', '')  # 검색어 파라미터 추가
 
     # 'None' 문자열 또는 빈 문자열이 넘어올 경우, None으로 처리하여 전체 게시글을 보여주도록 함
     if category_slug == 'None' or category_slug == '':
@@ -17,16 +20,32 @@ def post_list(request):
 
     if category_slug:
         category = get_object_or_404(Category, slug=category_slug)
-        posts = Post.objects.filter(category=category).order_by('-created_at')
+        posts = Post.objects.filter(category=category)
     else:
-        posts = Post.objects.all().order_by('-created_at')
+        posts = Post.objects.all()
         category = None
+
+    # 검색어가 있으면 제목 또는 내용에 포함된 게시글만 필터링
+    if query:
+        posts = posts.filter(title__icontains=query) | posts.filter(content__icontains=query)
+        posts = posts.distinct()
+
+    posts = posts.order_by('-created_at')
+
+    paginator = Paginator(posts, 15)  # 한 페이지에 15개씩
+    try:
+        paged_posts = paginator.page(page)
+    except PageNotAnInteger:
+        paged_posts = paginator.page(1)
+    except EmptyPage:
+        paged_posts = paginator.page(paginator.num_pages)
 
     categories = Category.objects.all()
     return render(request, 'freeboard/post_list.html', {
-        'posts': posts,
+        'posts': paged_posts,
         'categories': categories,
         'current_category': category,
+        'query': query,  # 검색어 템플릿에 전달
     })
 
 @login_required

@@ -3,11 +3,27 @@
 {% block title %}게시글 목록{% endblock %}
 
 {% block navbar_actions %}
-    {# 로그아웃 버튼이 base.html로 이동했으므로 이 블록은 비워둡니다. #}
+    {# 로그인 아웃 버튼이 base.html로 이동했으므로 이 블록은 비워둡니다. #}
 {% endblock %}
 
 {% block above_content_card_actions %}
-    <a href="{% url 'freeboard:post_create' %}" class="btn btn-primary">새 글 작성</a>
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; width: 100%;">
+        <div style="flex: 1; min-width: 0; display: flex; align-items: center;">
+            <form method="get" style="display: flex; gap: 8px; align-items: center; margin-bottom: 0;">
+                {% if current_category %}
+                    <input type="hidden" name="category" value="{{ current_category.slug }}">
+                {% endif %}
+                <input type="text" name="q" placeholder="검색어를 입력하세요" value="{{ query|default:'' }}" class="form-control" style="width: 350px; height: 38px; min-height: 38px; box-sizing: border-box;">
+                <button type="submit" class="btn btn-outline-primary" style="height: 38px; min-height: 38px; padding-top: 0.375rem; padding-bottom: 0.375rem;">검색</button>
+                {% if query %}
+                    <a href="?{% if current_category %}category={{ current_category.slug }}{% endif %}" class="btn btn-link" style="height: 38px; min-height: 38px; display: flex; align-items: center;">검색 초기화</a>
+                {% endif %}
+            </form>
+        </div>
+        <div style="flex-shrink: 0; margin-left: 16px;">
+            <a href="{% url 'freeboard:post_create' %}" class="btn btn-primary">새 글 작성</a>
+        </div>
+    </div>
 {% endblock %}
 
 {% block content %}

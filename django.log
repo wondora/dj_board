@@ -1556,3 +1556,506 @@ WARNING 2025-07-13 02:05:00,237 log 12 140603368130368 Not Found: /site/wp-inclu
 WARNING 2025-07-13 02:05:00,462 log 11 140603368130368 Not Found: /cms/wp-includes/wlwmanifest.xml
 ERROR 2025-07-13 02:10:52,513 exception 9 140603368130368 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
 WARNING 2025-07-13 02:10:52,855 log 9 140603368130368 Bad Request: /cmd.cgi
+WARNING 2025-07-13 05:08:58,135 log 9 140400128308096 Not Found: /.git/config
+WARNING 2025-07-13 05:18:34,646 log 10 140400128342784 Not Found: /wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 05:18:34,884 log 8 140400128310016 Not Found: /xmlrpc.php
+WARNING 2025-07-13 05:18:35,389 log 9 140400128308096 Not Found: /blog/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 05:18:35,626 log 9 140400128308096 Not Found: /web/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 05:18:35,860 log 9 140400128308096 Not Found: /wordpress/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 05:18:36,095 log 10 140400128342784 Not Found: /website/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 05:18:36,336 log 11 140400128340544 Not Found: /wp/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 05:18:36,602 log 8 140400128310016 Not Found: /news/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 05:18:36,856 log 11 140400128340544 Not Found: /2018/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 05:18:37,091 log 10 140400128342784 Not Found: /2019/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 05:18:37,506 log 10 140400128342784 Not Found: /shop/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 05:18:37,820 log 10 140400128342784 Not Found: /wp1/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 05:18:38,106 log 10 140400128342784 Not Found: /test/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 05:18:38,889 log 8 140400128310016 Not Found: /wp2/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 05:18:39,125 log 8 140400128310016 Not Found: /site/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 05:18:39,363 log 11 140400128340544 Not Found: /cms/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 05:18:39,599 log 10 140400128342784 Not Found: /sito/wp-includes/wlwmanifest.xml
+ERROR 2025-07-13 05:44:51,194 exception 10 140400128342784 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-13 05:44:51,195 log 10 140400128342784 Bad Request: /jXSG
+ERROR 2025-07-13 05:44:51,454 exception 10 140400128342784 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-13 05:44:51,455 log 10 140400128342784 Bad Request: /9sjG
+ERROR 2025-07-13 05:44:51,727 exception 8 140400128310016 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-13 05:44:51,728 log 8 140400128310016 Bad Request: /aab8
+ERROR 2025-07-13 05:44:53,003 exception 8 140400128310016 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-13 05:44:53,005 log 8 140400128310016 Bad Request: /jquery-3.3.1.slim.min.js
+ERROR 2025-07-13 05:44:53,275 exception 11 140400128340544 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-13 05:44:53,276 log 11 140400128340544 Bad Request: /aab9
+ERROR 2025-07-13 05:44:53,546 exception 11 140400128340544 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-13 05:44:53,547 log 11 140400128340544 Bad Request: /jquery-3.3.2.slim.min.js
+WARNING 2025-07-13 06:18:07,150 log 9 140400128308096 Not Found: /favicon.ico
+ERROR 2025-07-13 07:12:49,978 exception 11 140400128340544 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-13 07:12:49,979 log 11 140400128340544 Bad Request: /
+WARNING 2025-07-13 07:29:24,982 log 8 140400128310016 Not Found: /wp-includes/ID3/license.txt
+WARNING 2025-07-13 07:29:25,196 log 10 140400128342784 Not Found: /feed/
+WARNING 2025-07-13 07:29:25,414 log 8 140400128310016 Not Found: /xmlrpc.php
+WARNING 2025-07-13 07:29:25,630 log 8 140400128310016 Not Found: /blog/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 07:29:25,851 log 9 140400128308096 Not Found: /web/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 07:29:26,067 log 9 140400128308096 Not Found: /wordpress/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 07:29:26,284 log 10 140400128342784 Not Found: /wp/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 07:29:26,506 log 11 140400128340544 Not Found: /2020/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 07:29:26,720 log 11 140400128340544 Not Found: /2019/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 07:29:26,935 log 8 140400128310016 Not Found: /2021/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 07:29:27,152 log 8 140400128310016 Not Found: /shop/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 07:29:27,368 log 10 140400128342784 Not Found: /wp1/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 07:29:27,587 log 11 140400128340544 Not Found: /test/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 07:29:27,800 log 9 140400128308096 Not Found: /site/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 07:29:28,013 log 8 140400128310016 Not Found: /cms/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 08:32:53,885 log 8 140400128310016 Not Found: /.git/config
+WARNING 2025-07-13 09:40:19,897 log 10 140400128342784 Not Found: /.env
+WARNING 2025-07-13 09:40:20,252 log 9 140400128308096 Not Found: /.aws/credentials
+WARNING 2025-07-13 10:18:26,933 log 11 140400128340544 Not Found: /.git/config
+WARNING 2025-07-13 11:49:19,564 log 10 140400128342784 Not Found: /.git/config
+ERROR 2025-07-13 14:03:11,091 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-13 14:03:11,098 log 9 140286375668576 Bad Request: /
+ERROR 2025-07-13 14:04:01,912 exception 8 140286375652192 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-13 14:04:01,916 log 8 140286375652192 Bad Request: /.well-known/security.txt
+WARNING 2025-07-13 14:20:47,710 log 10 140286375684800 Not Found: /wp-includes/ID3/license.txt
+WARNING 2025-07-13 14:20:47,942 log 9 140286375668576 Not Found: /feed/
+WARNING 2025-07-13 14:20:48,158 log 11 140286375684800 Not Found: /xmlrpc.php
+WARNING 2025-07-13 14:20:48,371 log 11 140286375684800 Not Found: /blog/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 14:20:48,583 log 10 140286375684800 Not Found: /web/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 14:20:48,801 log 10 140286375684800 Not Found: /wordpress/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 14:20:49,017 log 8 140286375652192 Not Found: /wp/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 14:20:49,231 log 8 140286375652192 Not Found: /2020/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 14:20:49,444 log 10 140286375684800 Not Found: /2019/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 14:20:49,656 log 10 140286375684800 Not Found: /2021/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 14:20:49,870 log 8 140286375652192 Not Found: /shop/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 14:20:50,082 log 8 140286375652192 Not Found: /wp1/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 14:20:50,296 log 10 140286375684800 Not Found: /test/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 14:20:50,520 log 9 140286375668576 Not Found: /site/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 14:20:50,741 log 11 140286375684800 Not Found: /cms/wp-includes/wlwmanifest.xml
+ERROR 2025-07-13 18:30:18,666 exception 10 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-13 18:30:18,681 log 10 140286375684800 Bad Request: /
+WARNING 2025-07-13 20:31:55,534 log 10 140286375684800 Not Found: /.git/HEAD
+WARNING 2025-07-13 20:31:56,265 log 9 140286375668576 Not Found: /.env
+WARNING 2025-07-13 20:31:56,618 log 8 140286375652192 Not Found: /phpinfo
+WARNING 2025-07-13 20:31:56,962 log 11 140286375684800 Not Found: /_profiler/phpinfo
+WARNING 2025-07-13 20:31:57,269 log 10 140286375684800 Not Found: /info.php
+WARNING 2025-07-13 20:31:57,575 log 11 140286375684800 Not Found: /index.html
+WARNING 2025-07-13 20:31:57,882 log 8 140286375652192 Not Found: /backend/.env
+WARNING 2025-07-13 20:31:58,187 log 8 140286375652192 Not Found: /api/.env
+WARNING 2025-07-13 20:31:58,549 log 10 140286375684800 Not Found: /env.backup
+WARNING 2025-07-13 20:31:58,874 log 9 140286375668576 Not Found: /phpinfo.php
+WARNING 2025-07-13 20:31:59,186 log 10 140286375684800 Not Found: /main/.env
+WARNING 2025-07-13 20:31:59,497 log 11 140286375684800 Not Found: /.env.old
+WARNING 2025-07-13 20:31:59,812 log 8 140286375652192 Not Found: /api/config.env
+WARNING 2025-07-13 20:32:00,118 log 10 140286375684800 Not Found: /.aws/credentials
+WARNING 2025-07-13 20:32:00,423 log 9 140286375668576 Not Found: /lara/phpinfo.php
+WARNING 2025-07-13 20:32:00,734 log 8 140286375652192 Not Found: /core/.env
+WARNING 2025-07-13 20:32:01,045 log 8 140286375652192 Not Found: /application.properties
+WARNING 2025-07-13 20:32:01,350 log 8 140286375652192 Not Found: /prod/.env
+WARNING 2025-07-13 20:32:01,662 log 11 140286375684800 Not Found: /kyc/.env
+WARNING 2025-07-13 20:32:01,972 log 8 140286375652192 Not Found: /aws/credentials
+WARNING 2025-07-13 20:32:02,280 log 9 140286375668576 Not Found: /laravael/core/.env
+WARNING 2025-07-13 20:32:02,592 log 11 140286375684800 Not Found: /server-info.php
+WARNING 2025-07-13 20:32:02,899 log 8 140286375652192 Not Found: /.aws/config
+WARNING 2025-07-13 20:32:03,209 log 9 140286375668576 Not Found: /docker/app/.env
+WARNING 2025-07-13 20:32:03,516 log 10 140286375684800 Not Found: /lara/info.php
+WARNING 2025-07-13 20:32:03,827 log 8 140286375652192 Not Found: /.env.prod
+WARNING 2025-07-13 20:32:04,139 log 9 140286375668576 Not Found: /config/local.yml
+WARNING 2025-07-13 20:32:04,446 log 8 140286375652192 Not Found: /secrets/aws_ses.env
+WARNING 2025-07-13 20:32:04,752 log 9 140286375668576 Not Found: /awsstats/.env
+WARNING 2025-07-13 20:32:05,060 log 11 140286375684800 Not Found: /wp-config.php.bak
+WARNING 2025-07-13 20:32:25,640 log 10 140286375684800 Not Found: /config/storage.yml
+WARNING 2025-07-13 20:32:25,944 log 10 140286375684800 Not Found: /settings.py
+WARNING 2025-07-13 20:32:26,253 log 11 140286375684800 Not Found: /apps/.env
+WARNING 2025-07-13 20:32:26,560 log 8 140286375652192 Not Found: /opt/aws/ses.env
+WARNING 2025-07-13 20:32:26,863 log 11 140286375684800 Not Found: /logs/aws/ses.log
+WARNING 2025-07-13 20:32:27,167 log 10 140286375684800 Not Found: /private/.env
+WARNING 2025-07-13 20:32:27,474 log 10 140286375684800 Not Found: /docker-compose.yml
+WARNING 2025-07-13 20:32:27,784 log 8 140286375652192 Not Found: /.git/config
+WARNING 2025-07-13 20:39:13,466 log 11 140286375684800 Not Found: /.env
+WARNING 2025-07-13 21:44:50,856 log 11 140286375684800 Not Found: /wp-includes/ID3/license.txt
+WARNING 2025-07-13 21:44:51,071 log 10 140286375684800 Not Found: /feed/
+WARNING 2025-07-13 21:44:51,280 log 11 140286375684800 Not Found: /xmlrpc.php
+WARNING 2025-07-13 21:44:51,490 log 9 140286375668576 Not Found: /blog/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 21:44:51,716 log 11 140286375684800 Not Found: /web/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 21:44:51,934 log 8 140286375652192 Not Found: /wordpress/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 21:44:52,155 log 8 140286375652192 Not Found: /wp/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 21:44:52,367 log 8 140286375652192 Not Found: /2020/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 21:44:52,582 log 8 140286375652192 Not Found: /2019/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 21:44:52,800 log 8 140286375652192 Not Found: /2021/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 21:44:53,024 log 8 140286375652192 Not Found: /shop/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 21:44:53,244 log 10 140286375684800 Not Found: /wp1/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 21:44:53,458 log 10 140286375684800 Not Found: /test/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 21:44:53,678 log 9 140286375668576 Not Found: /site/wp-includes/wlwmanifest.xml
+WARNING 2025-07-13 21:44:53,900 log 11 140286375684800 Not Found: /cms/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 02:45:33,333 log 11 140286375684800 Not Found: /.git/HEAD
+WARNING 2025-07-14 02:45:34,920 log 8 140286375652192 Not Found: /.env
+WARNING 2025-07-14 02:45:35,229 log 8 140286375652192 Not Found: /phpinfo
+WARNING 2025-07-14 02:45:35,526 log 11 140286375684800 Not Found: /_profiler/phpinfo
+WARNING 2025-07-14 02:45:35,824 log 10 140286375684800 Not Found: /info.php
+WARNING 2025-07-14 02:45:36,128 log 9 140286375668576 Not Found: /index.html
+WARNING 2025-07-14 02:45:36,438 log 9 140286375668576 Not Found: /backend/.env
+WARNING 2025-07-14 02:45:36,738 log 8 140286375652192 Not Found: /api/.env
+WARNING 2025-07-14 02:45:37,146 log 9 140286375668576 Not Found: /env.backup
+WARNING 2025-07-14 02:45:37,457 log 8 140286375652192 Not Found: /phpinfo.php
+WARNING 2025-07-14 02:45:37,763 log 8 140286375652192 Not Found: /main/.env
+WARNING 2025-07-14 02:45:38,060 log 8 140286375652192 Not Found: /.env.old
+WARNING 2025-07-14 02:45:38,365 log 9 140286375668576 Not Found: /api/config.env
+WARNING 2025-07-14 02:45:38,674 log 9 140286375668576 Not Found: /.aws/credentials
+WARNING 2025-07-14 02:45:38,979 log 9 140286375668576 Not Found: /lara/phpinfo.php
+WARNING 2025-07-14 02:45:39,285 log 9 140286375668576 Not Found: /core/.env
+WARNING 2025-07-14 02:45:39,584 log 10 140286375684800 Not Found: /application.properties
+WARNING 2025-07-14 02:45:39,889 log 9 140286375668576 Not Found: /prod/.env
+WARNING 2025-07-14 02:45:40,188 log 9 140286375668576 Not Found: /kyc/.env
+WARNING 2025-07-14 02:45:40,484 log 11 140286375684800 Not Found: /aws/credentials
+WARNING 2025-07-14 02:45:40,805 log 11 140286375684800 Not Found: /laravael/core/.env
+WARNING 2025-07-14 02:45:41,109 log 9 140286375668576 Not Found: /server-info.php
+WARNING 2025-07-14 02:45:41,419 log 10 140286375684800 Not Found: /.aws/config
+WARNING 2025-07-14 02:45:41,725 log 10 140286375684800 Not Found: /docker/app/.env
+WARNING 2025-07-14 02:45:42,022 log 8 140286375652192 Not Found: /lara/info.php
+WARNING 2025-07-14 02:45:42,323 log 8 140286375652192 Not Found: /.env.prod
+WARNING 2025-07-14 02:45:42,622 log 9 140286375668576 Not Found: /config/local.yml
+WARNING 2025-07-14 02:45:42,926 log 8 140286375652192 Not Found: /secrets/aws_ses.env
+WARNING 2025-07-14 02:45:43,231 log 11 140286375684800 Not Found: /awsstats/.env
+WARNING 2025-07-14 02:45:43,531 log 8 140286375652192 Not Found: /wp-config.php.bak
+WARNING 2025-07-14 02:46:14,115 log 10 140286375684800 Not Found: /config/storage.yml
+WARNING 2025-07-14 02:46:14,430 log 11 140286375684800 Not Found: /settings.py
+WARNING 2025-07-14 02:46:14,740 log 8 140286375652192 Not Found: /apps/.env
+WARNING 2025-07-14 02:46:15,057 log 10 140286375684800 Not Found: /opt/aws/ses.env
+WARNING 2025-07-14 02:46:15,367 log 11 140286375684800 Not Found: /logs/aws/ses.log
+WARNING 2025-07-14 02:46:15,684 log 8 140286375652192 Not Found: /private/.env
+WARNING 2025-07-14 02:46:15,992 log 11 140286375684800 Not Found: /docker-compose.yml
+WARNING 2025-07-14 02:46:16,300 log 10 140286375684800 Not Found: /.git/config
+ERROR 2025-07-14 06:59:50,910 exception 8 140286375652192 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-14 06:59:50,911 log 8 140286375652192 Bad Request: /
+ERROR 2025-07-14 08:04:13,334 exception 9 140286375668576 Invalid HTTP_HOST header: 'google.com:443'. You may need to add 'google.com' to ALLOWED_HOSTS.
+WARNING 2025-07-14 08:04:13,335 log 9 140286375668576 Bad Request: /443
+WARNING 2025-07-14 08:47:42,585 log 8 140286375652192 Not Found: /wp-includes/ID3/license.txt
+WARNING 2025-07-14 08:47:42,804 log 10 140286375684800 Not Found: /feed/
+WARNING 2025-07-14 08:47:43,024 log 11 140286375684800 Not Found: /xmlrpc.php
+WARNING 2025-07-14 08:47:43,254 log 8 140286375652192 Not Found: /blog/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 08:47:43,480 log 9 140286375668576 Not Found: /web/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 08:47:43,715 log 11 140286375684800 Not Found: /wordpress/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 08:47:43,928 log 10 140286375684800 Not Found: /wp/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 08:47:44,140 log 8 140286375652192 Not Found: /2020/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 08:47:44,360 log 11 140286375684800 Not Found: /2019/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 08:47:44,575 log 9 140286375668576 Not Found: /2021/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 08:47:44,789 log 9 140286375668576 Not Found: /shop/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 08:47:45,007 log 10 140286375684800 Not Found: /wp1/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 08:47:45,230 log 10 140286375684800 Not Found: /test/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 08:47:45,451 log 9 140286375668576 Not Found: /site/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 08:47:45,667 log 11 140286375684800 Not Found: /cms/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 09:20:20,076 log 11 140286375684800 Not Found: /favicon.ico
+WARNING 2025-07-14 13:09:33,906 log 11 140286375684800 Not Found: /.git/config
+ERROR 2025-07-14 14:55:38,307 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-14 14:55:38,318 log 9 140286375668576 Bad Request: /
+ERROR 2025-07-14 14:56:20,247 exception 11 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-14 14:56:20,259 log 11 140286375684800 Bad Request: /security.txt
+WARNING 2025-07-14 16:54:34,105 log 10 140286375684800 Not Found: /wp-includes/ID3/license.txt
+WARNING 2025-07-14 16:54:34,326 log 11 140286375684800 Not Found: /feed/
+WARNING 2025-07-14 16:54:34,545 log 9 140286375668576 Not Found: /xmlrpc.php
+WARNING 2025-07-14 16:54:34,765 log 11 140286375684800 Not Found: /blog/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 16:54:34,980 log 9 140286375668576 Not Found: /web/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 16:54:35,205 log 10 140286375684800 Not Found: /wordpress/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 16:54:35,429 log 11 140286375684800 Not Found: /wp/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 16:54:35,660 log 8 140286375652192 Not Found: /2020/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 16:54:35,884 log 11 140286375684800 Not Found: /2019/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 16:54:36,104 log 9 140286375668576 Not Found: /2021/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 16:54:36,326 log 9 140286375668576 Not Found: /shop/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 16:54:36,543 log 9 140286375668576 Not Found: /wp1/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 16:54:36,761 log 9 140286375668576 Not Found: /test/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 16:54:36,980 log 9 140286375668576 Not Found: /site/wp-includes/wlwmanifest.xml
+WARNING 2025-07-14 16:54:37,198 log 9 140286375668576 Not Found: /cms/wp-includes/wlwmanifest.xml
+ERROR 2025-07-14 19:31:50,403 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-14 19:31:50,405 log 9 140286375668576 Bad Request: /
+ERROR 2025-07-15 01:15:10,606 exception 8 140286375652192 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-15 01:15:10,665 log 8 140286375652192 Bad Request: /
+WARNING 2025-07-15 01:34:33,730 log 8 140286375652192 Not Found: /wp-includes/ID3/license.txt
+WARNING 2025-07-15 01:34:34,070 log 11 140286375684800 Not Found: /feed/
+WARNING 2025-07-15 01:34:34,298 log 8 140286375652192 Not Found: /xmlrpc.php
+WARNING 2025-07-15 01:34:34,584 log 9 140286375668576 Not Found: /blog/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 01:34:34,824 log 8 140286375652192 Not Found: /web/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 01:34:35,159 log 10 140286375684800 Not Found: /wordpress/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 01:34:35,413 log 11 140286375684800 Not Found: /wp/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 01:34:35,616 log 9 140286375668576 Not Found: /2020/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 01:34:35,834 log 9 140286375668576 Not Found: /2019/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 01:34:36,042 log 8 140286375652192 Not Found: /2021/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 01:34:36,282 log 8 140286375652192 Not Found: /shop/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 01:34:36,483 log 8 140286375652192 Not Found: /wp1/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 01:34:36,688 log 11 140286375684800 Not Found: /test/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 01:34:36,886 log 11 140286375684800 Not Found: /site/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 01:34:37,087 log 8 140286375652192 Not Found: /cms/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 01:52:32,249 log 8 140286375652192 Not Found: /favicon.ico
+ERROR 2025-07-15 03:33:21,930 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-15 03:33:22,036 log 9 140286375668576 Bad Request: /
+ERROR 2025-07-15 04:05:42,076 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-15 04:05:42,080 log 9 140286375668576 Bad Request: /
+ERROR 2025-07-15 04:12:27,590 exception 10 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-15 04:12:27,831 log 10 140286375684800 Bad Request: /favicon.ico
+ERROR 2025-07-15 06:40:34,044 exception 10 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-15 06:40:34,051 log 10 140286375684800 Bad Request: /
+ERROR 2025-07-15 06:42:37,675 exception 11 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-15 06:42:37,842 log 11 140286375684800 Bad Request: /
+WARNING 2025-07-15 10:14:12,777 log 8 140286375652192 Not Found: /wp-includes/ID3/license.txt
+WARNING 2025-07-15 10:14:13,234 log 9 140286375668576 Not Found: /feed/
+WARNING 2025-07-15 10:14:13,587 log 11 140286375684800 Not Found: /xmlrpc.php
+WARNING 2025-07-15 10:14:13,847 log 9 140286375668576 Not Found: /blog/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 10:14:14,098 log 8 140286375652192 Not Found: /web/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 10:14:14,328 log 8 140286375652192 Not Found: /wordpress/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 10:14:14,567 log 11 140286375684800 Not Found: /wp/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 10:14:14,787 log 9 140286375668576 Not Found: /2020/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 10:14:15,059 log 10 140286375684800 Not Found: /2019/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 10:14:15,287 log 8 140286375652192 Not Found: /2021/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 10:14:15,513 log 11 140286375684800 Not Found: /shop/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 10:14:15,732 log 9 140286375668576 Not Found: /wp1/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 10:14:15,949 log 9 140286375668576 Not Found: /test/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 10:14:16,174 log 9 140286375668576 Not Found: /site/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 10:14:16,459 log 8 140286375652192 Not Found: /cms/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 10:16:36,424 log 8 140286375652192 Not Found: /favicon.ico
+ERROR 2025-07-15 12:56:16,671 exception 11 140286375684800 Invalid HTTP_HOST header: '193.122.99.100'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-15 12:56:16,676 log 11 140286375684800 Bad Request: /
+ERROR 2025-07-15 12:56:17,058 exception 10 140286375684800 Invalid HTTP_HOST header: '193.122.99.100'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-15 12:56:17,092 log 10 140286375684800 Bad Request: /favicon.ico
+WARNING 2025-07-15 15:18:27,301 log 10 140286375684800 Not Found: /.git/config
+ERROR 2025-07-15 15:38:13,324 exception 10 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-15 15:38:13,330 log 10 140286375684800 Bad Request: /
+ERROR 2025-07-15 15:50:24,240 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-15 15:50:24,291 log 9 140286375668576 Bad Request: /
+ERROR 2025-07-15 15:50:30,027 exception 10 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-15 15:50:30,027 log 10 140286375684800 Bad Request: /favicon.ico
+ERROR 2025-07-15 15:50:39,170 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-15 15:50:39,170 log 9 140286375668576 Bad Request: /robots.txt
+WARNING 2025-07-15 19:02:54,880 log 8 140286375652192 Not Found: /wp-includes/ID3/license.txt
+WARNING 2025-07-15 19:02:55,249 log 11 140286375684800 Not Found: /feed/
+WARNING 2025-07-15 19:02:55,516 log 9 140286375668576 Not Found: /xmlrpc.php
+WARNING 2025-07-15 19:02:55,737 log 10 140286375684800 Not Found: /blog/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 19:02:55,958 log 10 140286375684800 Not Found: /web/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 19:02:56,183 log 8 140286375652192 Not Found: /wordpress/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 19:02:56,409 log 8 140286375652192 Not Found: /wp/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 19:02:56,646 log 8 140286375652192 Not Found: /2020/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 19:02:56,868 log 11 140286375684800 Not Found: /2019/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 19:02:57,091 log 8 140286375652192 Not Found: /2021/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 19:02:57,311 log 10 140286375684800 Not Found: /shop/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 19:02:57,527 log 8 140286375652192 Not Found: /wp1/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 19:02:57,745 log 8 140286375652192 Not Found: /test/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 19:02:57,971 log 9 140286375668576 Not Found: /site/wp-includes/wlwmanifest.xml
+WARNING 2025-07-15 19:02:58,191 log 9 140286375668576 Not Found: /cms/wp-includes/wlwmanifest.xml
+ERROR 2025-07-15 21:27:33,965 exception 9 140286375668576 Invalid HTTP_HOST header: 'google.com:443'. You may need to add 'google.com' to ALLOWED_HOSTS.
+WARNING 2025-07-15 21:27:34,007 log 9 140286375668576 Bad Request: /443
+WARNING 2025-07-15 22:59:31,314 log 8 140286375652192 Not Found: /.git/config
+WARNING 2025-07-16 01:58:17,169 log 9 140286375668576 Not Found: /wp-includes/ID3/license.txt
+WARNING 2025-07-16 01:58:17,581 log 8 140286375652192 Not Found: /feed/
+WARNING 2025-07-16 01:58:17,852 log 10 140286375684800 Not Found: /xmlrpc.php
+WARNING 2025-07-16 01:58:18,084 log 9 140286375668576 Not Found: /blog/wp-includes/wlwmanifest.xml
+WARNING 2025-07-16 01:58:18,279 log 10 140286375684800 Not Found: /web/wp-includes/wlwmanifest.xml
+WARNING 2025-07-16 01:58:19,269 log 11 140286375684800 Not Found: /wordpress/wp-includes/wlwmanifest.xml
+WARNING 2025-07-16 01:58:19,516 log 8 140286375652192 Not Found: /wp/wp-includes/wlwmanifest.xml
+WARNING 2025-07-16 01:58:19,710 log 9 140286375668576 Not Found: /2020/wp-includes/wlwmanifest.xml
+WARNING 2025-07-16 01:58:19,900 log 9 140286375668576 Not Found: /2019/wp-includes/wlwmanifest.xml
+WARNING 2025-07-16 01:58:20,094 log 9 140286375668576 Not Found: /2021/wp-includes/wlwmanifest.xml
+WARNING 2025-07-16 01:58:20,296 log 10 140286375684800 Not Found: /shop/wp-includes/wlwmanifest.xml
+WARNING 2025-07-16 01:58:20,486 log 8 140286375652192 Not Found: /wp1/wp-includes/wlwmanifest.xml
+WARNING 2025-07-16 01:58:20,678 log 8 140286375652192 Not Found: /test/wp-includes/wlwmanifest.xml
+WARNING 2025-07-16 01:58:20,869 log 9 140286375668576 Not Found: /site/wp-includes/wlwmanifest.xml
+WARNING 2025-07-16 01:58:21,061 log 8 140286375652192 Not Found: /cms/wp-includes/wlwmanifest.xml
+ERROR 2025-07-16 06:49:19,843 exception 11 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-16 06:49:20,134 log 11 140286375684800 Bad Request: /
+ERROR 2025-07-16 06:51:28,880 exception 8 140286375652192 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-16 06:51:29,053 log 8 140286375652192 Bad Request: /
+WARNING 2025-07-16 09:34:54,918 log 9 140286375668576 Not Found: /favicon.ico
+WARNING 2025-07-16 09:35:09,247 log 8 140286375652192 Forbidden (CSRF token missing or incorrect.): /accounts/login/
+WARNING 2025-07-16 11:35:23,254 log 8 140286375652192 Not Found: /favicon.ico
+ERROR 2025-07-16 17:05:27,389 exception 11 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-16 17:05:27,414 log 11 140286375684800 Bad Request: /
+ERROR 2025-07-16 17:05:47,968 exception 11 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-16 17:05:47,968 log 11 140286375684800 Bad Request: /favicon.ico
+ERROR 2025-07-16 17:06:20,457 exception 8 140286375652192 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-16 17:06:20,460 log 8 140286375652192 Bad Request: /.well-known/security.txt
+ERROR 2025-07-16 18:38:41,998 exception 10 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-16 18:38:42,024 log 10 140286375684800 Bad Request: /
+ERROR 2025-07-16 18:38:45,002 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-16 18:38:45,079 log 9 140286375668576 Bad Request: /favicon.ico
+ERROR 2025-07-16 20:34:23,181 exception 11 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-16 20:34:23,181 log 11 140286375684800 Bad Request: /
+WARNING 2025-07-17 01:06:30,987 log 9 140286375668576 Not Found: /favicon.ico
+WARNING 2025-07-17 01:16:22,948 log 11 140286375684800 Not Found: /modules/modules/board/skins/sally_board/images/bg_pre.png
+WARNING 2025-07-17 01:47:09,538 log 8 140286375652192 Not Found: /modules/modules/board/skins/sally_board/images/bg_pre.png
+WARNING 2025-07-17 02:11:25,848 log 9 140286375668576 Not Found: /wp-includes/ID3/license.txt
+WARNING 2025-07-17 02:11:26,086 log 10 140286375684800 Not Found: /feed/
+WARNING 2025-07-17 02:11:26,320 log 10 140286375684800 Not Found: /xmlrpc.php
+WARNING 2025-07-17 02:11:26,519 log 11 140286375684800 Not Found: /blog/wp-includes/wlwmanifest.xml
+WARNING 2025-07-17 02:11:26,714 log 11 140286375684800 Not Found: /web/wp-includes/wlwmanifest.xml
+WARNING 2025-07-17 02:11:26,903 log 8 140286375652192 Not Found: /wordpress/wp-includes/wlwmanifest.xml
+WARNING 2025-07-17 02:11:27,093 log 8 140286375652192 Not Found: /wp/wp-includes/wlwmanifest.xml
+WARNING 2025-07-17 02:11:27,284 log 9 140286375668576 Not Found: /2020/wp-includes/wlwmanifest.xml
+WARNING 2025-07-17 02:11:27,476 log 9 140286375668576 Not Found: /2019/wp-includes/wlwmanifest.xml
+WARNING 2025-07-17 02:11:27,666 log 8 140286375652192 Not Found: /2021/wp-includes/wlwmanifest.xml
+WARNING 2025-07-17 02:11:27,854 log 11 140286375684800 Not Found: /shop/wp-includes/wlwmanifest.xml
+WARNING 2025-07-17 02:11:28,049 log 11 140286375684800 Not Found: /wp1/wp-includes/wlwmanifest.xml
+WARNING 2025-07-17 02:11:28,243 log 11 140286375684800 Not Found: /test/wp-includes/wlwmanifest.xml
+WARNING 2025-07-17 02:11:28,435 log 10 140286375684800 Not Found: /site/wp-includes/wlwmanifest.xml
+WARNING 2025-07-17 02:11:28,622 log 10 140286375684800 Not Found: /cms/wp-includes/wlwmanifest.xml
+ERROR 2025-07-17 06:10:23,610 exception 9 140286375668576 Invalid HTTP_HOST header: 'google.com:443'. You may need to add 'google.com' to ALLOWED_HOSTS.
+WARNING 2025-07-17 06:10:23,644 log 9 140286375668576 Bad Request: /443
+ERROR 2025-07-17 06:32:12,630 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-17 06:32:12,631 log 9 140286375668576 Bad Request: /
+ERROR 2025-07-17 06:34:05,380 exception 8 140286375652192 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-17 06:34:05,381 log 8 140286375652192 Bad Request: /
+ERROR 2025-07-17 08:59:21,129 exception 11 140286375684800 Invalid HTTP_HOST header: '0.0.0.0:7000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING 2025-07-17 08:59:21,263 log 11 140286375684800 Bad Request: /
+ERROR 2025-07-17 08:59:34,830 exception 8 140286375652192 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-17 08:59:34,955 log 8 140286375652192 Bad Request: /
+ERROR 2025-07-17 08:59:37,072 exception 10 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-17 08:59:37,146 log 10 140286375684800 Bad Request: /
+ERROR 2025-07-17 08:59:37,384 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-17 08:59:37,509 log 9 140286375668576 Bad Request: /aaa9
+ERROR 2025-07-17 08:59:39,222 exception 8 140286366466272 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-17 08:59:39,226 log 8 140286366466272 Bad Request: /
+ERROR 2025-07-17 08:59:40,569 exception 8 140286375652192 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-17 08:59:40,569 log 8 140286375652192 Bad Request: /aab9
+ERROR 2025-07-17 08:59:41,506 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-17 08:59:41,506 log 9 140286375668576 Bad Request: /
+ERROR 2025-07-17 08:59:43,791 exception 11 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-17 08:59:43,798 log 11 140286375684800 Bad Request: /
+ERROR 2025-07-17 09:41:16,299 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-17 09:41:16,302 log 9 140286375668576 Bad Request: /
+WARNING 2025-07-17 10:18:32,611 log 8 140286375652192 Not Found: /favicon.ico
+WARNING 2025-07-17 12:53:08,571 log 9 140286375668576 Not Found: /wp-includes/ID3/license.txt
+WARNING 2025-07-17 12:53:08,897 log 11 140286375684800 Not Found: /feed/
+WARNING 2025-07-17 12:53:09,149 log 10 140286375684800 Not Found: /xmlrpc.php
+WARNING 2025-07-17 12:53:09,345 log 9 140286375668576 Not Found: /blog/wp-includes/wlwmanifest.xml
+WARNING 2025-07-17 12:53:09,554 log 11 140286375684800 Not Found: /web/wp-includes/wlwmanifest.xml
+WARNING 2025-07-17 12:53:09,744 log 8 140286375652192 Not Found: /wordpress/wp-includes/wlwmanifest.xml
+WARNING 2025-07-17 12:53:09,935 log 8 140286375652192 Not Found: /wp/wp-includes/wlwmanifest.xml
+WARNING 2025-07-17 12:53:10,137 log 8 140286375652192 Not Found: /2020/wp-includes/wlwmanifest.xml
+WARNING 2025-07-17 12:53:10,330 log 8 140286375652192 Not Found: /2019/wp-includes/wlwmanifest.xml
+WARNING 2025-07-17 12:53:10,520 log 9 140286375668576 Not Found: /2021/wp-includes/wlwmanifest.xml
+WARNING 2025-07-17 12:53:10,730 log 11 140286375684800 Not Found: /shop/wp-includes/wlwmanifest.xml
+WARNING 2025-07-17 12:53:10,931 log 9 140286375668576 Not Found: /wp1/wp-includes/wlwmanifest.xml
+WARNING 2025-07-17 12:53:11,132 log 10 140286375684800 Not Found: /test/wp-includes/wlwmanifest.xml
+WARNING 2025-07-17 12:53:11,324 log 9 140286375668576 Not Found: /site/wp-includes/wlwmanifest.xml
+WARNING 2025-07-17 12:53:11,514 log 9 140286375668576 Not Found: /cms/wp-includes/wlwmanifest.xml
+ERROR 2025-07-17 13:19:11,678 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-17 13:19:11,678 log 9 140286375668576 Bad Request: /
+ERROR 2025-07-17 13:19:12,084 exception 10 140286375684800 Invalid HTTP_HOST header: '193.122.99.100'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-17 13:19:12,084 log 10 140286375684800 Bad Request: /favicon.ico
+WARNING 2025-07-17 20:24:39,814 log 9 140286375668576 Not Found: /.git/config
+ERROR 2025-07-17 21:59:53,031 exception 10 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-17 21:59:53,292 log 10 140286375684800 Bad Request: /
+ERROR 2025-07-17 22:00:07,017 exception 8 140286375652192 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-17 22:00:07,178 log 8 140286375652192 Bad Request: /favicon.ico
+ERROR 2025-07-17 22:00:25,876 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-17 22:00:25,877 log 9 140286375668576 Bad Request: /security.txt
+ERROR 2025-07-18 00:19:17,502 exception 11 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-18 00:19:17,858 log 11 140286375684800 Bad Request: /
+ERROR 2025-07-18 00:19:20,744 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-18 00:19:20,745 log 9 140286375668576 Bad Request: /
+ERROR 2025-07-18 00:19:21,159 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-18 00:19:21,159 log 9 140286375668576 Bad Request: /
+ERROR 2025-07-18 06:43:29,949 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-18 06:43:30,054 log 9 140286375668576 Bad Request: /
+ERROR 2025-07-18 06:45:09,195 exception 11 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-18 06:45:09,249 log 11 140286375684800 Bad Request: /
+ERROR 2025-07-18 08:36:53,573 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-18 08:36:53,575 log 9 140286375668576 Bad Request: /
+WARNING 2025-07-18 08:58:39,515 log 8 140286375652192 Not Found: /favicon.ico
+ERROR 2025-07-18 09:21:12,534 exception 8 140286375652192 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-18 09:21:12,534 log 8 140286375652192 Bad Request: /fbMG
+ERROR 2025-07-18 09:21:13,570 exception 10 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-18 09:21:13,615 log 10 140286375684800 Bad Request: /W2jj
+ERROR 2025-07-18 09:21:15,964 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-18 09:21:15,968 log 9 140286375668576 Bad Request: /aab8
+ERROR 2025-07-18 09:21:17,260 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-18 09:21:17,262 log 9 140286375668576 Bad Request: /jquery-3.3.1.slim.min.js
+ERROR 2025-07-18 09:21:17,729 exception 11 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-18 09:21:17,730 log 11 140286375684800 Bad Request: /aab9
+ERROR 2025-07-18 09:21:19,019 exception 8 140286375652192 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-18 09:21:19,019 log 8 140286375652192 Bad Request: /jquery-3.3.2.slim.min.js
+WARNING 2025-07-18 10:38:28,891 log 9 140286375668576 Not Found: /wp-includes/ID3/license.txt
+WARNING 2025-07-18 10:38:29,177 log 10 140286375684800 Not Found: /feed/
+WARNING 2025-07-18 10:38:29,382 log 10 140286375684800 Not Found: /xmlrpc.php
+WARNING 2025-07-18 10:38:29,576 log 8 140286375652192 Not Found: /blog/wp-includes/wlwmanifest.xml
+WARNING 2025-07-18 10:38:29,773 log 8 140286375652192 Not Found: /web/wp-includes/wlwmanifest.xml
+WARNING 2025-07-18 10:38:30,106 log 11 140286375684800 Not Found: /wordpress/wp-includes/wlwmanifest.xml
+WARNING 2025-07-18 10:38:30,294 log 9 140286375668576 Not Found: /wp/wp-includes/wlwmanifest.xml
+WARNING 2025-07-18 10:38:30,501 log 10 140286375684800 Not Found: /2020/wp-includes/wlwmanifest.xml
+WARNING 2025-07-18 10:38:30,708 log 11 140286375684800 Not Found: /2019/wp-includes/wlwmanifest.xml
+WARNING 2025-07-18 10:38:30,903 log 11 140286375684800 Not Found: /2021/wp-includes/wlwmanifest.xml
+WARNING 2025-07-18 10:38:31,094 log 9 140286375668576 Not Found: /shop/wp-includes/wlwmanifest.xml
+WARNING 2025-07-18 10:38:31,286 log 11 140286375684800 Not Found: /wp1/wp-includes/wlwmanifest.xml
+WARNING 2025-07-18 10:38:31,475 log 8 140286375652192 Not Found: /test/wp-includes/wlwmanifest.xml
+WARNING 2025-07-18 10:38:31,669 log 9 140286375668576 Not Found: /site/wp-includes/wlwmanifest.xml
+WARNING 2025-07-18 10:38:31,910 log 10 140286375684800 Not Found: /cms/wp-includes/wlwmanifest.xml
+ERROR 2025-07-18 13:25:22,422 exception 10 140286375684800 Invalid HTTP_HOST header: '0.0.0.0:7000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING 2025-07-18 13:25:22,422 log 10 140286375684800 Bad Request: /
+ERROR 2025-07-18 13:30:09,980 exception 9 140286375668576 Invalid HTTP_HOST header: '0.0.0.0:7000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING 2025-07-18 13:30:09,981 log 9 140286375668576 Bad Request: /
+ERROR 2025-07-18 16:37:39,720 exception 10 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-18 16:37:39,721 log 10 140286375684800 Bad Request: /
+WARNING 2025-07-18 19:33:47,022 log 11 140286375684800 Not Found: /wp-includes/ID3/license.txt
+WARNING 2025-07-18 19:33:47,789 log 8 140286375652192 Not Found: /feed/
+WARNING 2025-07-18 19:33:48,693 log 9 140286375668576 Not Found: /xmlrpc.php
+WARNING 2025-07-18 19:33:48,957 log 8 140286375652192 Not Found: /blog/wp-includes/wlwmanifest.xml
+WARNING 2025-07-18 19:33:49,218 log 10 140286375684800 Not Found: /web/wp-includes/wlwmanifest.xml
+WARNING 2025-07-18 19:33:49,460 log 10 140286375684800 Not Found: /wordpress/wp-includes/wlwmanifest.xml
+WARNING 2025-07-18 19:33:49,726 log 9 140286375668576 Not Found: /wp/wp-includes/wlwmanifest.xml
+WARNING 2025-07-18 19:33:49,961 log 10 140286375684800 Not Found: /2020/wp-includes/wlwmanifest.xml
+WARNING 2025-07-18 19:33:50,195 log 8 140286375652192 Not Found: /2019/wp-includes/wlwmanifest.xml
+WARNING 2025-07-18 19:33:50,393 log 8 140286375652192 Not Found: /2021/wp-includes/wlwmanifest.xml
+WARNING 2025-07-18 19:33:50,596 log 11 140286375684800 Not Found: /shop/wp-includes/wlwmanifest.xml
+WARNING 2025-07-18 19:33:50,792 log 11 140286375684800 Not Found: /wp1/wp-includes/wlwmanifest.xml
+WARNING 2025-07-18 19:33:51,015 log 11 140286375684800 Not Found: /test/wp-includes/wlwmanifest.xml
+WARNING 2025-07-18 19:33:51,209 log 9 140286375668576 Not Found: /site/wp-includes/wlwmanifest.xml
+WARNING 2025-07-18 19:33:51,412 log 9 140286375668576 Not Found: /cms/wp-includes/wlwmanifest.xml
+ERROR 2025-07-18 20:05:00,884 exception 8 140286375652192 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-18 20:05:00,891 log 8 140286375652192 Bad Request: /
+ERROR 2025-07-18 20:57:38,684 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-18 20:57:38,686 log 9 140286375668576 Bad Request: /aaa9
+ERROR 2025-07-18 20:57:41,476 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-18 20:57:41,477 log 9 140286375668576 Bad Request: /aab9
+ERROR 2025-07-18 21:18:04,928 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-18 21:18:04,929 log 9 140286375668576 Bad Request: /
+ERROR 2025-07-18 22:54:38,046 exception 11 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-18 22:54:38,134 log 11 140286375684800 Bad Request: /
+ERROR 2025-07-18 22:55:07,883 exception 10 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-18 22:55:07,897 log 10 140286375684800 Bad Request: /favicon.ico
+ERROR 2025-07-18 22:55:21,628 exception 10 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-18 22:55:21,633 log 10 140286375684800 Bad Request: /sitemap.xml
+ERROR 2025-07-19 01:32:43,743 exception 10 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-19 01:32:43,745 log 10 140286375684800 Bad Request: /aaa9
+ERROR 2025-07-19 01:32:46,597 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-19 01:32:46,600 log 9 140286375668576 Bad Request: /aab9
+ERROR 2025-07-19 06:54:16,868 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-19 06:54:16,872 log 9 140286375668576 Bad Request: /
+ERROR 2025-07-19 06:56:20,824 exception 10 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-19 06:56:20,829 log 10 140286375684800 Bad Request: /
+WARNING 2025-07-19 10:59:03,681 log 9 140286375668576 Not Found: /wp-includes/ID3/license.txt
+WARNING 2025-07-19 10:59:04,200 log 8 140286375652192 Not Found: /feed/
+WARNING 2025-07-19 10:59:04,481 log 11 140286375684800 Not Found: /xmlrpc.php
+WARNING 2025-07-19 10:59:04,679 log 9 140286375668576 Not Found: /blog/wp-includes/wlwmanifest.xml
+WARNING 2025-07-19 10:59:04,910 log 9 140286375668576 Not Found: /web/wp-includes/wlwmanifest.xml
+WARNING 2025-07-19 10:59:05,178 log 10 140286375684800 Not Found: /wordpress/wp-includes/wlwmanifest.xml
+WARNING 2025-07-19 10:59:05,396 log 8 140286375652192 Not Found: /wp/wp-includes/wlwmanifest.xml
+WARNING 2025-07-19 10:59:05,615 log 8 140286375652192 Not Found: /2020/wp-includes/wlwmanifest.xml
+WARNING 2025-07-19 10:59:05,822 log 11 140286375684800 Not Found: /2019/wp-includes/wlwmanifest.xml
+WARNING 2025-07-19 10:59:06,206 log 11 140286375684800 Not Found: /2021/wp-includes/wlwmanifest.xml
+WARNING 2025-07-19 10:59:06,403 log 10 140286375684800 Not Found: /shop/wp-includes/wlwmanifest.xml
+WARNING 2025-07-19 10:59:06,614 log 9 140286375668576 Not Found: /wp1/wp-includes/wlwmanifest.xml
+WARNING 2025-07-19 10:59:06,814 log 10 140286375684800 Not Found: /test/wp-includes/wlwmanifest.xml
+WARNING 2025-07-19 10:59:07,173 log 8 140286375652192 Not Found: /site/wp-includes/wlwmanifest.xml
+WARNING 2025-07-19 10:59:07,368 log 8 140286375652192 Not Found: /cms/wp-includes/wlwmanifest.xml
+ERROR 2025-07-19 12:13:26,983 exception 10 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-19 12:13:26,983 log 10 140286375684800 Bad Request: /
+ERROR 2025-07-19 12:13:29,631 exception 9 140286375668576 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-19 12:13:29,632 log 9 140286375668576 Bad Request: /favicon.ico
+ERROR 2025-07-19 12:13:30,277 exception 11 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-19 12:13:30,279 log 11 140286375684800 Bad Request: /robots.txt
+ERROR 2025-07-19 12:13:30,897 exception 9 140286375673376 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-19 12:13:30,898 log 9 140286375673376 Bad Request: /sitemap.xml
+ERROR 2025-07-19 23:59:20,140 exception 10 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-19 23:59:20,271 log 10 140286375684800 Bad Request: /
+ERROR 2025-07-19 23:59:39,693 exception 8 140286375652192 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-19 23:59:39,744 log 8 140286375652192 Bad Request: /favicon.ico
+ERROR 2025-07-19 23:59:45,241 exception 10 140286375684800 Invalid HTTP_HOST header: '193.122.99.100:7000'. You may need to add '193.122.99.100' to ALLOWED_HOSTS.
+WARNING 2025-07-19 23:59:45,249 log 10 140286375684800 Bad Request: /
+WARNING 2025-07-20 04:49:57,861 log 8 140286375652192 Not Found: /favicon.ico
+WARNING 2025-07-20 04:50:07,782 log 11 140286375684800 Forbidden (CSRF token missing or incorrect.): /accounts/login/
+WARNING 2025-07-20 04:50:16,555 log 10 140286375684800 Forbidden (CSRF token missing or incorrect.): /accounts/login/
+WARNING 2025-07-20 05:37:56,413 log 8 140286375652192 Not Found: /favicon.ico
+WARNING 2025-07-20 05:51:43,288 log 12 140542775082688 Not Found: /favicon.ico
