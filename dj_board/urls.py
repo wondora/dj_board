@@ -12,5 +12,3 @@ urlpatterns = [
     path('accounts/', include('django.contrib.auth.urls')), # Django 내장 인증 URL 추가
 ]
 
-if settings.DEBUG:
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

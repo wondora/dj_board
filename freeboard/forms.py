@@ -9,7 +9,7 @@ class PostForm(forms.ModelForm):
         widgets = {
             'category': forms.Select(attrs={'class': 'form-control'}),
             'title': forms.TextInput(attrs={'class': 'form-control', 'placeholder': '제목을 입력하세요'}),
-            'content': SummernoteWidget(),
+            'content': SummernoteWidget(attrs={'summernote': {'width': '100%', 'height': '400px'}}),
             'file': forms.FileInput(attrs={'class': 'form-control'}),
         }
         labels = {
