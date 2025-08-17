@@ -10,8 +10,12 @@ git push -u origin main
 배포 서버에 압축을 풀고 아래 명령어로 이미지 생성하고 컨테이너 만들면 된다.
 nginx, mariadb는 호스트 os에 설치된 걸로 사용했다. 따로 도커로 포함시켜도 된다.
 1. docker builder prune -af 캐시 및 찌거기 삭제
-2. docker compose build u--no-cache
-3. docker compose up -d
+2. docker compose build --no-cache
+3. 기존 컨테이너를 중지하고 삭제한 후, 새로 빌드된 이미지를 기반으로 새 컨테이너를 실행합니다. 
+docker-compose up -d --force-recreate
+
+docker compose exec django_app python manage.py makemigrations
+docker compose exec django_app python manage.py migrate
 
 버그가 생기면 .env에서 debug = True 변경하고 에러 내용을 보면된다.
 
@@ -110,6 +114,9 @@ DEBUG = False
 
 ✅ Database Index 확인
 게시판처럼 조회가 많은 경우 created_at, category_id 등에 index=True 설정
+ALTER TABLE board ADD INDEX idx_created_at (created_at);
+ALTER TABLE board ADD INDEX idx_category_id (category_id);
+
 
 쿼리 속도를 10~100배 향상시킬 수 있음
 

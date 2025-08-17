@@ -20,9 +20,9 @@ def post_list(request):
 
     if category_slug:
         category = get_object_or_404(Category, slug=category_slug)
-        posts = Post.objects.filter(category=category)
+        posts = Post.objects.filter(category=category).select_related('category')
     else:
-        posts = Post.objects.all()
+        posts = Post.objects.all().select_related('category')
         category = None
 
     # 검색어가 있으면 제목 또는 내용에 포함된 게시글만 필터링

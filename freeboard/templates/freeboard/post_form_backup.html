@@ -193,7 +193,7 @@
                                         progressBar.style.width = '100%';
                                         progressBar.textContent = '업로드 완료';
                                     }
-                                    window.location.href = response.redirect_url || '/board/';
+                                    window.location.href = response.redirect_url || '/';
                                 } else {
                                     progressBar.style.display = 'block';
                                     progressBar.style.background = '#dc3545';
@@ -206,7 +206,7 @@
                                     progressBar.style.width = '100%';
                                     progressBar.textContent = '업로드 완료';
                                 }
-                                window.location.href = '/board/';
+                                window.location.href = '/';
                             }
                         } else {
                             progressBar.style.display = 'block';

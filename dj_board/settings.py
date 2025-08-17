@@ -79,8 +79,12 @@ DATABASES = {
         'PORT': env('DB_PORT'), # .env에서 읽어옴, 기본값 3306
         'OPTIONS': {
             'init_command': "SET NAMES 'utf8mb4'",
-            'charset': 'utf8mb4',            
-        }
+            'charset': 'utf8mb4',
+            'sql_mode': 'STRICT_TRANS_TABLES',
+            'autocommit': True,
+        },
+        'CONN_MAX_AGE': 60,  # 데이터베이스 연결 유지 시간 (초)
+        'ATOMIC_REQUESTS': False,  # 성능 향상을 위해 False로 설정
     }
 }
 
@@ -122,6 +126,34 @@ USE_TZ = True
 STATIC_URL = 'static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
+# 정적 파일 최적화
+STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
+
+# 정적 파일 압축
+COMPRESS_ENABLED = True
+COMPRESS_CSS_FILTERS = [
+    'compressor.filters.css_default.CssAbsoluteFilter',
+    'compressor.filters.cssmin.rCSSMinFilter',
+]
+COMPRESS_JS_FILTERS = [
+    'compressor.filters.jsmin.JSMinFilter',
+]
+
+# 캐싱 설정
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+        'LOCATION': 'unique-snowflake',
+        'TIMEOUT': 300,  # 5분
+        'OPTIONS': {
+            'MAX_ENTRIES': 1000,
+        }
+    }
+}
+
+# 세션 캐싱
+SESSION_ENGINE = 'django.contrib.sessions.backends.cached_db'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
@@ -162,7 +194,7 @@ SUMMERNOTE_CONFIG = {
 }
 
 # Authentication settings
-LOGIN_REDIRECT_URL = '/board/' # 로그인 성공 후 리다이렉트될 URL
+LOGIN_REDIRECT_URL = '/' # 로그인 성공 후 리다이렉트될 URL
 LOGIN_URL = '/accounts/login/' # 로그인 페이지 URL
 LOGOUT_REDIRECT_URL = '/' # 로그아웃 성공 후 리다이렉트될 URL
 
