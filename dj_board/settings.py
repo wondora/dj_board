@@ -67,6 +67,7 @@ INSTALLED_APPS = [
     'freeboard',
     'django_summernote',
     'compressor',
+    'django_cleanup.apps.CleanupConfig',
 ]
 
 MIDDLEWARE = [

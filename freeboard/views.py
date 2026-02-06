@@ -7,14 +7,18 @@ from django.core.files import File
 from django.core.files.temp import NamedTemporaryFile
 import os
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+import logging
+
+# 로거 설정
+logger = logging.getLogger(__name__)
 
 @login_required
 def post_list(request):
     category_slug = request.GET.get('category')
     page = request.GET.get('page', 1)
-    query = request.GET.get('q', '')  # 검색어 파라미터 추가
+    query = request.GET.get('q', '')  # 검색어 파라미터
 
-    # 'None' 문자열 또는 빈 문자열이 넘어올 경우, None으로 처리하여 전체 게시글을 보여주도록 함
+    # 'None' 문자열 또는 빈 문자열 처리
     if category_slug == 'None' or category_slug == '':
         category_slug = None
 
@@ -25,7 +29,7 @@ def post_list(request):
         posts = Post.objects.all().select_related('category')
         category = None
 
-    # 검색어가 있으면 제목 또는 내용에 포함된 게시글만 필터링
+    # 검색어 필터링
     if query:
         posts = posts.filter(title__icontains=query) | posts.filter(content__icontains=query)
         posts = posts.distinct()
@@ -33,6 +37,7 @@ def post_list(request):
     posts = posts.order_by('-created_at')
 
     paginator = Paginator(posts, 15)  # 한 페이지에 15개씩
+    
     try:
         paged_posts = paginator.page(page)
     except PageNotAnInteger:
@@ -40,12 +45,42 @@ def post_list(request):
     except EmptyPage:
         paged_posts = paginator.page(paginator.num_pages)
 
+    # ============================================================
+    # ▼ [추가됨] 페이지네이션 Sliding Window 로직 (항상 5개 유지)
+    # ============================================================
+    max_index = 5  # 화면에 보여줄 버튼 개수
+    current_page = paged_posts.number
+    total_pages = paginator.num_pages
+
+    # 1. 현재 페이지를 중심으로 범위 설정 (예: 3페이지면 1~5)
+    start_index = current_page - 2
+    end_index = current_page + 2
+
+    # 2. 시작점이 1보다 작으면, 부족한 만큼 뒤로 밈 (1페이지일 때 1~5로 만듦)
+    if start_index < 1:
+        end_index += (1 - start_index)
+        start_index = 1
+
+    # 3. 끝점이 전체 페이지를 넘으면, 넘친 만큼 앞으로 당김
+    if end_index > total_pages:
+        start_index -= (end_index - total_pages)
+        end_index = total_pages
+        
+        # 3-1. 당겼는데 시작점이 1보다 작아지면 1로 고정 (전체 페이지가 5개 미만일 때)
+        if start_index < 1:
+            start_index = 1
+
+    custom_range = range(start_index, end_index + 1)
+    # ============================================================
+
     categories = Category.objects.all()
+    
     return render(request, 'freeboard/post_list.html', {
         'posts': paged_posts,
         'categories': categories,
         'current_category': category,
-        'query': query,  # 검색어 템플릿에 전달
+        'query': query,
+        'custom_range': custom_range, # 템플릿으로 전달!
     })
 
 @login_required
@@ -67,17 +102,15 @@ def post_create(request):
 @login_required
 def post_edit(request, pk):
     post = get_object_or_404(Post, pk=pk)
+    
     if request.method == 'POST':
-        import logging
-        logger = logging.getLogger(__name__)
-
         form = PostForm(request.POST, request.FILES, instance=post)
         file_clear = 'file-clear' in request.POST
-        new_file_uploaded = 'file' in request.FILES
-
-        # 파일 삭제 체크가 되어 있으면 기존 파일을 먼저 삭제
+        
+        # 파일 삭제 로직
         if file_clear and post.file:
             old_file_path = post.file.path
+            # 파일이 실제로 존재할 때만 삭제 시도
             if old_file_path and os.path.exists(old_file_path):
                 try:
                     os.remove(old_file_path)

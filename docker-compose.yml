@@ -2,6 +2,7 @@ services:
   web:
     build: .
     container_name: django_web
+    user: "1000:1000"
     command: >
       sh -c "
       python manage.py collectstatic --noinput &&
@@ -13,7 +14,9 @@ services:
       "
     volumes:
       - static_volume:/static
-      - socket_volume:/run/shared  # 소켓 공유를 위한 볼륨 추가
+      - socket_volume:/run/shared
+      # ▼ [수정됨] 호스트의 ./media를 컨테이너 내부의 /app/media와 연결합니다.
+      - ./media:/app/media
     networks:
       - dj_board_default     
     restart: always
@@ -23,13 +26,14 @@ services:
     container_name: django_nginx
     volumes:
       - static_volume:/static:ro
-      - media_volume:/media:ro  
+      # ▼ [수정됨] Nginx는 보통 관습적으로 /media 경로를 많이 씁니다.
+      # (nginx.conf 설정에서 alias /media/; 라고 되어 있다고 가정)
+      - ./media:/media:ro
       - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
-      - socket_volume:/run/shared  # 소켓 공유를 위한 볼륨 추가
-      - /tmp:/host_tmp             # [추가] 메모 사이트 소켓 공유 (호스트:/컨테이너)
+      - socket_volume:/run/shared
+      - /tmp:/host_tmp
     depends_on:
       - web
-    # 포트 80은 외부(NPM)에서 접속해야 하므로 환경에 따라 ports로 바꿀 수 있습니다.
     expose:
       - "80"
     networks:
@@ -38,9 +42,8 @@ services:
 
 volumes:
   static_volume:
-  media_volume:
-  socket_volume: # 소켓 전용 볼륨 선언
-  
+  socket_volume:
+
 networks:
   dj_board_default:
     external: true

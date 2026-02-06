@@ -39,7 +39,7 @@
     .post-table td {
         padding: 15px 20px; /* Increased padding for more breathing room */
         text-align: left;
-        font-size: 15px;
+        font-size: 16px;
     }
     .post-table th {
         background-color: #f0f2f5; /* Lighter header background */
@@ -122,9 +122,9 @@
         gap: 4px;
     }
     .pagination a, .pagination span {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
         min-width: 36px;
         padding: 7px 12px;
         margin: 0 2px;
@@ -179,7 +179,7 @@
         {% for post in posts %}
         <tr>
             <td class="text-center">{{ post.pk }}</td>
-	    <td class="post-title"><a href="{% url 'freeboard:post_detail' post.pk %}">{{ post.title }}</a>{% if post.file %} <span title="첨부파일 있음">&nbsp;&nbsp;&#x1F4BE;</span>{% endif %}</td>
+        <td class="post-title"><a href="{% url 'freeboard:post_detail' post.pk %}">{{ post.title }}</a>{% if post.file %} <span title="첨부파일 있음">&nbsp;&nbsp;&#x1F4BE;</span>{% endif %}</td>
             <td>{{ post.category.name }}</td>
             <td class="text-center">{{ post.created_at|date:"Y.m.d" }}</td>
         </tr>
@@ -193,26 +193,24 @@
 
 <div class="pagination">
     {% if posts.has_previous %}
-        <a href="?{% if current_category %}category={{ current_category.slug }}&{% endif %}page=1">처음</a>
-        <a href="?{% if current_category %}category={{ current_category.slug }}&{% endif %}page={{ posts.previous_page_number }}">이전</a>
+        <a href="?page=1{% if current_category %}&category={{ current_category.slug }}{% endif %}{% if query %}&q={{ query }}{% endif %}">처음</a>
+        <a href="?page={{ posts.previous_page_number }}{% if current_category %}&category={{ current_category.slug }}{% endif %}{% if query %}&q={{ query }}{% endif %}">이전</a>
     {% else %}
         <span class="disabled">처음</span>
         <span class="disabled">이전</span>
     {% endif %}
 
-    {% for num in posts.paginator.page_range %}
-        {% if num >= posts.number|add:'-2' and num <= posts.number|add:'2' %}
-            {% if posts.number == num %}
-                <span class="current">{{ num }}</span>
-            {% else %}
-                <a href="?{% if current_category %}category={{ current_category.slug }}&{% endif %}page={{ num }}">{{ num }}</a>
-            {% endif %}
+    {% for num in custom_range %}
+        {% if posts.number == num %}
+            <span class="current">{{ num }}</span>
+        {% else %}
+            <a href="?page={{ num }}{% if current_category %}&category={{ current_category.slug }}{% endif %}{% if query %}&q={{ query }}{% endif %}">{{ num }}</a>
         {% endif %}
     {% endfor %}
 
     {% if posts.has_next %}
-        <a href="?{% if current_category %}category={{ current_category.slug }}&{% endif %}page={{ posts.next_page_number }}">다음</a>
-        <a href="?{% if current_category %}category={{ current_category.slug }}&{% endif %}page={{ posts.paginator.num_pages }}">마지막</a>
+        <a href="?page={{ posts.next_page_number }}{% if current_category %}&category={{ current_category.slug }}{% endif %}{% if query %}&q={{ query }}{% endif %}">다음</a>
+        <a href="?page={{ posts.paginator.num_pages }}{% if current_category %}&category={{ current_category.slug }}{% endif %}{% if query %}&q={{ query }}{% endif %}">마지막</a>
     {% else %}
         <span class="disabled">다음</span>
         <span class="disabled">마지막</span>

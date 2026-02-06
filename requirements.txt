@@ -6,3 +6,4 @@ pillow
 django-environ
 gevent
 django-compressor
+django-cleanup

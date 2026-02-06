@@ -1,0 +1,212 @@
+{% extends 'freeboard/base.html' %}
+
+{% block title %}{% if form.instance.pk %}게시글 수정{% else %}새 글 작성{% endif %}{% endblock %}
+
+{% block content %}
+<link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js"></script>
+
+<style>
+    .form-group {
+        margin-bottom: 20px;
+    }
+    .form-group label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 600;
+        font-size: 14px;
+        color: var(--light-text-color);
+    }
+    .form-control {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid var(--border-color);
+        border-radius: 6px;
+        font-size: 16px;
+        box-sizing: border-box;
+        transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .form-control:focus {
+        outline: none;
+        border-color: var(--primary-color);
+        box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.15);
+    }
+    .form-actions {
+        text-align: right;
+        margin-top: 30px;
+    }
+
+    select#id_category.form-control {
+        width: 300px;
+    }
+
+    /* --- Quill Editor 관련 스타일 수정 --- */
+    #editor-container {
+        width: 100%;
+        height: 550px; 
+        background-color: #fff;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+    
+    /* 에디터 내부 폰트 크기 및 줄바꿈 여백 설정 */
+    .ql-editor {
+        font-size: 16px !important; /* 사용자 요청: 16px */
+        line-height: 1.6 !important;
+    }
+    
+    /* 복사 붙여넣기 시 문단 간격(줄바꿈처럼 보임) 확보 */
+    .ql-editor p {
+        margin-bottom: 12px !important;
+    }
+
+    .ql-toolbar.ql-snow {
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        background-color: #f8f9fa;
+    }
+</style>
+
+<h1>{% if form.instance.pk %}게시글 수정{% else %}새 글 작성{% endif %}</h1>
+
+<form id="post-form" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+
+    <div class="form-group">
+        <label for="{{ form.category.id_for_label }}">{{ form.category.label }}</label>
+        {{ form.category }}
+    </div>
+    <div class="form-group">
+        <label for="{{ form.title.id_for_label }}">{{ form.title.label }}</label>
+        {{ form.title }}
+    </div>
+    <div class="form-group">
+        <label for="{{ form.content.id_for_label }}">{{ form.content.label }}</label>
+        
+        <div id="editor-container"></div>
+        
+        <div style="display:none;">
+            {{ form.content }}
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="{{ form.file.id_for_label }}">{{ form.file.label }}</label>
+        {{ form.file }}
+        {% if form.instance.pk and form.instance.file %}
+            <div style="margin-top:8px;">
+                <span>현재 파일: <a href="{{ form.instance.file.url }}" target="_blank">{{ form.instance.file_basename }} ({{ form.instance.file_size_display }})</a></span>
+                <label style="margin-left:15px; color:#dc3545; font-weight:normal;">
+                    <input type="checkbox" name="file-clear" id="file-clear"> 파일 삭제
+                </label>
+            </div>
+        {% endif %}
+    </div>
+
+    <div class="progress" style="display:none; margin-bottom:15px;">
+        <div class="progress-bar" style="width:0%;height:20px;background:#007bff;color:#fff;text-align:center;line-height:20px;border-radius:4px;transition:width 0.3s;">0%</div>
+    </div>
+
+    <div class="form-actions">
+        <a href="javascript:history.back()" class="btn btn-secondary">취소</a>
+        <button type="submit" class="btn btn-primary">저장</button>
+    </div>
+</form>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // 1. Quill 에디터 초기화
+        var quill = new Quill('#editor-container', {
+            theme: 'snow',
+            modules: {
+                toolbar: [
+                    [{ 'header': [1, 2, 3, false] }],
+                    ['bold', 'italic', 'underline', 'strike'],
+                    ['link', 'image', 'code-block'],
+                    [{ 'list': 'ordered'}, { 'list': 'bullet' }],
+                    ['clean']
+                ]
+            }
+        });
+
+        // 2. 장고 폼 필드와 연결
+        var contentInput = document.querySelector('#{{ form.content.id_for_label }}');
+
+        // 수정 시 기존 내용 로드
+        if (contentInput && contentInput.value) {
+            quill.root.innerHTML = contentInput.value;
+        }
+
+        // 3. 전송 로직
+        var form = document.getElementById('post-form');
+        var progress = document.querySelector('.progress');
+        var progressBar = document.querySelector('.progress-bar');
+        var fileClearCheckbox = document.getElementById('file-clear');
+        var fileInput = form.querySelector('input[type="file"]');
+        var MAX_FILE_SIZE = 100 * 1024 * 1024;
+        
+        if (form) {
+            form.addEventListener('submit', function(e) {
+                // [수정 핵심] 전송 방식에 상관없이 무조건 Quill 내용을 textarea에 먼저 복사
+                var htmlContent = quill.root.innerHTML;
+                
+                // 내용이 비어있는지 확인 (Quill은 기본적으로 <p><br></p>를 가짐)
+                if (htmlContent === '<p><br></p>' || htmlContent.trim() === '') {
+                    alert('내용을 입력해 주세요.');
+                    e.preventDefault();
+                    return false;
+                }
+                
+                contentInput.value = htmlContent;
+
+                var hasFileUpload = fileInput && fileInput.files.length > 0;
+                var hasFileClear = fileClearCheckbox && fileClearCheckbox.checked;
+                
+                // 파일 업로드 또는 삭제가 있는 경우에만 AJAX 전송 수행
+                if (hasFileUpload || hasFileClear) {
+                    e.preventDefault();
+                    
+                    var formData = new FormData(form);
+                    var xhr = new XMLHttpRequest();
+                    xhr.open('POST', window.location.href);
+                    xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+                    
+                    if (hasFileUpload) {
+                        xhr.upload.onprogress = function(event) {
+                            if (event.lengthComputable) {
+                                var percent = Math.round((event.loaded / event.total) * 100);
+                                if (progress) progress.style.display = 'block';
+                                if (progressBar) {
+                                    progressBar.style.width = percent + '%';
+                                    progressBar.textContent = percent + '%';
+                                }
+                            }
+                        };
+                    }
+                    
+                    xhr.onload = function() {
+                        if (xhr.status >= 200 && xhr.status < 400) {
+                            try {
+                                var response = JSON.parse(xhr.responseText);
+                                if (response.success) {
+                                    window.location.href = response.redirect_url || '/';
+                                } else {
+                                    alert('오류: ' + (response.error || '알 수 없는 오류'));
+                                }
+                            } catch (err) {
+                                window.location.href = '/';
+                            }
+                        } else {
+                            if (confirm('전송 실패. 일반 방식으로 재시도할까요?')) {
+                                form.submit();
+                            }
+                        }
+                    };
+                    
+                    xhr.send(formData);
+                } 
+                // 파일 처리가 없으면 위에서 채운 contentInput.value와 함께 일반 submit이 진행됩니다.
+            });
+        }
+    });
+</script>
+{% endblock %}

@@ -30,8 +30,9 @@ RUN pip install --no-cache-dir -r /app/requirements.txt
 #RUN npm install                                                                             
  
 # 6. 프로젝트 전체 소스 코드 복사                                                           
-COPY . /app/                                                                                
-
+COPY . /app/               
+# root에서 1000(ubuntu)로변경                                                                 
+RUN chown -R 1000:1000 /app
 #7. Django 정적 파일 수집                                                                  
 RUN python manage.py collectstatic --noinput                                                
 
