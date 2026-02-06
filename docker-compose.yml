@@ -1,16 +1,46 @@
 services:
-  django_app:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    ports:
-      - "7000:7000"      
-    volumes:
-      - .:/app # 현재 프로젝트 디렉토리를 컨테이너의 /app에 마운트
-      - ./staticfiles:/app/staticfiles # 정적 파일 볼륨
-      - ./media:/app/media # 미디어 파일 볼륨
-    env_file:
-      - .env
+  web:
+    build: .
+    container_name: django_web
     command: >
-      sh -c "python manage.py migrate &&
-             gunicorn dj_board.wsgi:application --workers=4 --worker-class=gevent --bind 0.0.0.0:7000 --timeout=60"
+      sh -c "
+      python manage.py collectstatic --noinput &&
+      gunicorn dj_board.wsgi:application \
+      --bind unix:/run/shared/gunicorn.sock \
+      --workers 3 --threads 2 --timeout 60 \
+      --worker-class gthread --preload \
+      --max-requests 1000 --max-requests-jitter 50
+      "
+    volumes:
+      - static_volume:/static
+      - socket_volume:/run/shared  # 소켓 공유를 위한 볼륨 추가
+    networks:
+      - dj_board_default     
+    restart: always
+
+  nginx:
+    image: nginx:stable-alpine
+    container_name: django_nginx
+    volumes:
+      - static_volume:/static:ro
+      - media_volume:/media:ro  
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - socket_volume:/run/shared  # 소켓 공유를 위한 볼륨 추가
+      - /tmp:/host_tmp             # [추가] 메모 사이트 소켓 공유 (호스트:/컨테이너)
+    depends_on:
+      - web
+    # 포트 80은 외부(NPM)에서 접속해야 하므로 환경에 따라 ports로 바꿀 수 있습니다.
+    expose:
+      - "80"
+    networks:
+      - dj_board_default      
+    restart: always
+
+volumes:
+  static_volume:
+  media_volume:
+  socket_volume: # 소켓 전용 볼륨 선언
+  
+networks:
+  dj_board_default:
+    external: true

@@ -6,5 +6,3 @@ pillow
 django-environ
 gevent
 django-compressor
-django-cacheops
-django-debug-toolbar

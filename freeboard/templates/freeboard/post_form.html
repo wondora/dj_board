@@ -3,6 +3,9 @@
 {% block title %}{% if form.instance.pk %}게시글 수정{% else %}새 글 작성{% endif %}{% endblock %}
 
 {% block content %}
+<link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js"></script>
+
 <style>
     .form-group {
         margin-bottom: 20px;
@@ -20,7 +23,7 @@
         border: 1px solid var(--border-color);
         border-radius: 6px;
         font-size: 16px;
-        box-sizing: border-box; /* Crucial for consistent sizing */
+        box-sizing: border-box;
         transition: border-color 0.2s, box-shadow 0.2s;
     }
     .form-control:focus {
@@ -33,33 +36,22 @@
         margin-top: 30px;
     }
 
-    /* --- Custom Styles for Form Layout --- */
     select#id_category.form-control {
-        width: 300px; /* Adjust this value as needed */
+        width: 300px;
     }
 
-    /* --- Specific styles to align Summernote with .form-control --- */
-    /* Target the summernote-div directly and force 100% width */
-    div.summernote-div {
-        width: 100% !important; /* Force width to 100% */
-        box-sizing: border-box; /* Ensure consistent box model */
+    /* --- Quill Editor 관련 스타일 --- */
+    #editor-container {
+        width: 100%;
+        height: 550px; /* 기존 Summernote 높이와 동일하게 설정 */
+        background-color: #fff;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
     }
-    /* Target the main Summernote editor container */
-    .note-editor {
-        width: 100% !important;
-        max-width: 100% !important;
-        box-sizing: border-box;
-        border: 1px solid var(--border-color);
-        border-radius: 6px; /* Match the border-radius of .form-control */
-    }
-    .note-toolbar {
+    .ql-toolbar.ql-snow {
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
         background-color: #f8f9fa;
-        border-bottom: 1px solid var(--border-color);
-        border-top-left-radius: 5px; /* Slightly less for a snug fit */
-        border-top-right-radius: 5px;
-    }
-    .note-editable {
-        padding: 12px; /* Match the padding of .form-control */
     }
 </style>
 
@@ -67,7 +59,7 @@
 
 <form id="post-form" method="post" enctype="multipart/form-data">
     {% csrf_token %}
-    {{ form.media }}
+    {# {{ form.media }} 삭제: Quill은 직접 로드함 #}
 
     <div class="form-group">
         <label for="{{ form.category.id_for_label }}">{{ form.category.label }}</label>
@@ -79,7 +71,12 @@
     </div>
     <div class="form-group">
         <label for="{{ form.content.id_for_label }}">{{ form.content.label }}</label>
-        {{ form.content }}
+        
+        <div id="editor-container"></div>
+        
+        <div style="display:none;">
+            {{ form.content }}
+        </div>
     </div>
     <div class="form-group">
         <label for="{{ form.file.id_for_label }}">{{ form.file.label }}</label>
@@ -106,35 +103,34 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-	    // ⬇️ Summernote 붙여넣기 시 서식 제거 기능 추가
-    	$('#id_content').summernote({
-          callbacks: {
-            onPaste: function (e) {
-                const clipboardData = ((e.originalEvent || e).clipboardData || window.clipboardData);
-                const text = clipboardData.getData('text/plain');  // 순수 텍스트
-                e.preventDefault();
+        // 1. Quill 에디터 초기화
+        var quill = new Quill('#editor-container', {
+            theme: 'snow',
+            modules: {
+                toolbar: [
+                    [{ 'header': [1, 2, 3, false] }],
+                    ['bold', 'italic', 'underline', 'strike'],
+                    ['link', 'image', 'code-block'],
+                    [{ 'list': 'ordered'}, { 'list': 'bullet' }],
+                    ['clean']
+                ]
+            }
+        });
 
-                // 스타일 제거 후 텍스트 삽입
-                setTimeout(() => {
-                    document.execCommand('insertText', false, text);
-                }, 10);
-             }
-           }
-    	});
-  		// ⬆️ 이 부분이 추가되었습니다.
+        // 2. 장고 폼 필드와 연결 (ID 기반)
+        var contentInput = document.querySelector('#{{ form.content.id_for_label }}');
 
-        var summernoteDiv = document.querySelector('div.summernote-div');
-        if (summernoteDiv) {
-            summernoteDiv.removeAttribute('width');
+        // 수정 시 기존 내용 로드
+        if (contentInput.value) {
+            quill.root.innerHTML = contentInput.value;
         }
 
+        // 3. 기존 AJAX 전송 로직 유지 및 Quill 연동
         var form = document.getElementById('post-form');
         var progress = document.querySelector('.progress');
         var progressBar = document.querySelector('.progress-bar');
         var fileClearCheckbox = document.getElementById('file-clear');
         var fileInput = form.querySelector('input[type="file"]');
-        
-        // 파일 크기 제한 (100MB)
         var MAX_FILE_SIZE = 100 * 1024 * 1024;
         
         if (fileInput) {
@@ -152,14 +148,16 @@
         
         if (form && progress && progressBar) {
             form.addEventListener('submit', function(e) {
+                // [필수] 전송 전 Quill 내용을 hidden textarea에 복사
+                contentInput.value = quill.root.innerHTML;
+
                 var hasFileUpload = fileInput && fileInput.files.length > 0;
                 var hasFileClear = fileClearCheckbox && fileClearCheckbox.checked;
                 
-                // 파일이 업로드되거나 파일 삭제가 체크된 경우에만 AJAX 처리
+                // 파일 처리가 필요한 경우 AJAX로 처리
                 if (hasFileUpload || hasFileClear) {
                     e.preventDefault();
                     
-                    // 파일 크기 재확인
                     if (hasFileUpload && fileInput.files[0].size > MAX_FILE_SIZE) {
                         alert('파일 크기가 100MB를 초과합니다. 더 작은 파일을 선택해주세요.');
                         return;
@@ -182,80 +180,37 @@
                     }
                     
                     xhr.onload = function() {
-                        console.log('Response status:', xhr.status);
-                        console.log('Response text:', xhr.responseText);
-                        
                         if (xhr.status >= 200 && xhr.status < 400) {
                             try {
                                 var response = JSON.parse(xhr.responseText);
                                 if (response.success) {
-                                    if (hasFileUpload) {
-                                        progressBar.style.width = '100%';
-                                        progressBar.textContent = '업로드 완료';
-                                    }
                                     window.location.href = response.redirect_url || '/';
                                 } else {
-                                    progressBar.style.display = 'block';
-                                    progressBar.style.background = '#dc3545';
-                                    progressBar.textContent = '오류: ' + (response.error || '알 수 없는 오류');
-                                    console.error('Server error:', response);
+                                    alert('오류: ' + (response.error || '알 수 없는 오류'));
                                 }
                             } catch (e) {
-                                // JSON 파싱 실패 시 일반 응답으로 처리
-                                if (hasFileUpload) {
-                                    progressBar.style.width = '100%';
-                                    progressBar.textContent = '업로드 완료';
-                                }
                                 window.location.href = '/';
                             }
                         } else {
-                            progressBar.style.display = 'block';
-                            progressBar.style.background = '#dc3545';
-                            progressBar.textContent = '업로드 실패 (상태: ' + xhr.status + ')';
-                            console.error('Upload failed with status:', xhr.status);
-                            console.error('Response:', xhr.responseText);
-                            
-                            // AJAX 실패 시 일반 폼 제출로 재시도
                             if (confirm('AJAX 업로드가 실패했습니다. 일반 방식으로 재시도하시겠습니까?')) {
-                                form.removeEventListener('submit', arguments.callee);
                                 form.submit();
                             }
                         }
                     };
+                    
                     xhr.onerror = function() {
-                        progressBar.style.display = 'block';
-                        progressBar.style.background = '#dc3545';
-                        progressBar.textContent = '네트워크 오류';
-                        console.error('Network error occurred');
-                        
-                        // 네트워크 오류 시 일반 폼 제출로 재시도
                         if (confirm('네트워크 오류가 발생했습니다. 일반 방식으로 재시도하시겠습니까?')) {
-                            form.removeEventListener('submit', arguments.callee);
-                            form.submit();
-                        }
-                    };
-                    xhr.ontimeout = function() {
-                        progressBar.style.display = 'block';
-                        progressBar.style.background = '#dc3545';
-                        progressBar.textContent = '업로드 시간 초과';
-                        console.error('Upload timeout');
-                        
-                        // 타임아웃 시 일반 폼 제출로 재시도
-                        if (confirm('업로드 시간이 초과되었습니다. 일반 방식으로 재시도하시겠습니까?')) {
-                            form.removeEventListener('submit', arguments.callee);
                             form.submit();
                         }
                     };
                     
-                    // 타임아웃 설정 (5분)
                     xhr.timeout = 300000;
-                    
                     xhr.send(formData);
                 }
+                // 파일 처리가 없는 일반 글 작성인 경우, 
+                // e.preventDefault()가 호출되지 않았으므로 그대로 제출됩니다.
             });
         }
     });
-
 </script>
-
 {% endblock %}

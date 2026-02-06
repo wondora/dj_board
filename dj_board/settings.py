@@ -20,6 +20,38 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env('DEBUG')
 
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+        },
+    },
+    'root': {
+        'handlers': ['console'],
+        'level': 'WARNING',
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console'],
+            'level': 'WARNING',
+            'propagate': False,
+        },
+    },
+}
+
+# 배포 환경 최적화 설정
+if not DEBUG:
+    # 보안 설정
+    SECURE_BROWSER_XSS_FILTER = True
+    SECURE_CONTENT_TYPE_NOSNIFF = True
+    X_FRAME_OPTIONS = 'DENY'
+    
+    # 로깅 레벨 조정
+    #LOGGING['root']['level'] = 'WARNING'
+    LOGGING['loggers']['django']['level'] = 'WARNING'
+
 ALLOWED_HOSTS = env.list('ALLOWED_HOSTS')
 
 
@@ -34,6 +66,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'freeboard',
     'django_summernote',
+    'compressor',
 ]
 
 MIDDLEWARE = [
@@ -123,21 +156,21 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
-STATIC_URL = 'static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = '/static/'
+STATIC_ROOT = '/static'
 
 # 정적 파일 최적화
-STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 
-# 정적 파일 압축
-COMPRESS_ENABLED = True
-COMPRESS_CSS_FILTERS = [
-    'compressor.filters.css_default.CssAbsoluteFilter',
-    'compressor.filters.cssmin.rCSSMinFilter',
-]
-COMPRESS_JS_FILTERS = [
-    'compressor.filters.jsmin.JSMinFilter',
-]
+# 정적 파일 압축 (배포 환경)
+COMPRESS_ENABLED = False
+# COMPRESS_CSS_FILTERS = [
+#     'compressor.filters.css_default.CssAbsoluteFilter',
+#     'compressor.filters.cssmin.rCSSMinFilter',
+# ]
+# COMPRESS_JS_FILTERS = [
+#     'compressor.filters.jsmin.JSMinFilter',
+# ]
 
 # 캐싱 설정
 CACHES = {
@@ -173,7 +206,7 @@ X_FRAME_OPTIONS = 'SAMEORIGIN'  # summernote용
 
 # Summernote settings
 SUMMERNOTE_CONFIG = {
-    'iframe': False,
+    'iframe': True,
     'summernote': {
         'width': '100%',
         'height': '480',

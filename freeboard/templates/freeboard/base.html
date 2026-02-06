@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Django Board{% endblock %}</title>
+    
+    <!-- jQuery (Summernote dependency) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
         :root {
             --primary-color: #007bff;
@@ -124,5 +127,7 @@
             {% block content %}{% endblock %}
         </div>
     </main>
+    
+
 </body>
 </html>
